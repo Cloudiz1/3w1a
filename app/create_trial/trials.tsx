@@ -6,7 +6,7 @@ export function CreateTrialButton() {
     return <>
         <button className="text-4xl" onClick={() => setShowCreation(true)}>+</button>
         {showCreation && <TrialCreationMenu setShowCreation={setShowCreation} />}
-    </>;
+    </>
 }
 
 interface TrialCreationMenuProps {
@@ -32,5 +32,5 @@ function TrialCreationMenu({ setShowCreation }: TrialCreationMenuProps) {
                 setShowCreation(false);
             }}>Create New Trial</button>
         </div>
-    </div>;
+    </div>
 }

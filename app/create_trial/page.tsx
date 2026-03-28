@@ -1,7 +1,7 @@
 "use client"
 import type { FilterProp } from "./filter.tsx"
 import { Filter, AppliedFilter } from "./filter"
-import { FilterKind } from "./types"
+import { FilterKind } from "../types"
 import { CreateTrialButton } from "./trials"
 import { useState } from "react"
 
@@ -50,5 +50,5 @@ export default function TrialPage() {
 		</div>
 		<div className="top-0 left-0 flex-4 h-dvh p-2 bg-blue-500"> {/* right bar */}
 		</div>
-	</div>;
+	</div>
 }
