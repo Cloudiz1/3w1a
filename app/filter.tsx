@@ -1,4 +1,4 @@
-import type { FilterKind } from "./trials.d.ts"
+import type { FilterKind } from "./types.js"
 
 export interface FilterProp {
 	name: String,
