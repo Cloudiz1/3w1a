@@ -1,0 +1,246 @@
+{
+  "patients": [
+    {
+      "name": "Evelyn Harper",
+      "id": "PAT-001",
+      "attributes": {
+        "bloodType": { "value": "O+", "type": "verified" },
+        "height": { "value": "165cm", "type": "measured" }
+      },
+      "notes": "Annual physical completed."
+    },
+    {
+      "name": "Marcus Chen",
+      "id": "PAT-002",
+      "attributes": {
+        "heartRate": { "value": "72bpm", "type": "resting" },
+        "weight": { "value": "80kg", "type": "measured" }
+      },
+      "notes": "No history of smoking."
+    },
+    {
+      "name": "Sarah Jenkins",
+      "id": "PAT-003",
+      "attributes": {
+        "glucose": { "value": "95mg/dL", "type": "fasting" }
+      },
+      "notes": "Follow-up in 3 months."
+    },
+    {
+      "name": "Liam O'Connor",
+      "id": "PAT-004",
+      "attributes": {
+        "bloodPressure": { "value": "118/75", "type": "normal" }
+      },
+      "notes": "Patient is highly active."
+    },
+    {
+      "name": "Amara Okafor",
+      "id": "PAT-005",
+      "attributes": {
+        "oxygen": { "value": "98%", "type": "stable" }
+      },
+      "notes": "Recovering from mild flu."
+    },
+    {
+      "name": "Hiroshi Tanaka",
+      "id": "PAT-006",
+      "attributes": {
+        "cholesterol": { "value": "190mg/dL", "type": "borderline" }
+      },
+      "notes": "Dietary adjustments recommended."
+    },
+    {
+      "name": "Elena Rodriguez",
+      "id": "PAT-007",
+      "attributes": {
+        "vision": { "value": "20/20", "type": "checked" }
+      },
+      "notes": "No corrective lenses needed."
+    },
+    {
+      "name": "Julian Vane",
+      "id": "PAT-008",
+      "attributes": {
+        "bloodType": { "value": "A-", "type": "verified" }
+      },
+      "notes": "Known allergy to penicillin."
+    },
+    {
+      "name": "Sophia Schmidt",
+      "id": "PAT-009",
+      "attributes": {
+        "weight": { "value": "62kg", "type": "measured" }
+      },
+      "notes": "Routine prenatal visit."
+    },
+    {
+      "name": "David Miller",
+      "id": "PAT-010",
+      "attributes": {
+        "heartRate": { "value": "88bpm", "type": "elevated" }
+      },
+      "notes": "Patient reported high stress levels."
+    },
+    {
+      "name": "Isabella Rossi",
+      "id": "PAT-011",
+      "attributes": {
+        "height": { "value": "170cm", "type": "measured" }
+      },
+      "notes": "Sports physical cleared."
+    },
+    {
+      "name": "Omar Al-Farsi",
+      "id": "PAT-012",
+      "attributes": {
+        "glucose": { "value": "110mg/dL", "type": "post-meal" }
+      },
+      "notes": "Monitor for pre-diabetes."
+    },
+    {
+      "name": "Clara Dubois",
+      "id": "PAT-013",
+      "attributes": {
+        "temp": { "value": "36.8C", "type": "normal" }
+      },
+      "notes": "Patient feeling well."
+    },
+    {
+      "name": "Noah Williams",
+      "id": "PAT-014",
+      "attributes": {
+        "oxygen": { "value": "96%", "type": "stable" }
+      },
+      "notes": "Smoker, advised cessation."
+    },
+    {
+      "name": "Mia Wong",
+      "id": "PAT-015",
+      "attributes": {
+        "bloodType": { "value": "B+", "type": "verified" }
+      },
+      "notes": "Blood donor candidate."
+    },
+    {
+      "name": "Lucas Petit",
+      "id": "PAT-016",
+      "attributes": {
+        "bloodPressure": { "value": "140/90", "type": "high" }
+      },
+      "notes": "Prescribed hypertension medication."
+    },
+    {
+      "name": "Zoe Graham",
+      "id": "PAT-017",
+      "attributes": {
+        "weight": { "value": "55kg", "type": "measured" }
+      },
+      "notes": "Excellent cardiovascular health."
+    },
+    {
+      "name": "Ethan Hunt",
+      "id": "PAT-018",
+      "attributes": {
+        "heartRate": { "value": "58bpm", "type": "athletic" }
+      },
+      "notes": "Professional marathon runner."
+    },
+    {
+      "name": "Aria Stark",
+      "id": "PAT-019",
+      "attributes": {
+        "temp": { "value": "38.2C", "type": "fever" }
+      },
+      "notes": "Prescribed rest and fluids."
+    },
+    {
+      "name": "Mateo Garcia",
+      "id": "PAT-020",
+      "attributes": {
+        "glucose": { "value": "90mg/dL", "type": "normal" }
+      },
+      "notes": "Consistent energy levels reported."
+    },
+    {
+      "name": "Sloane Peterson",
+      "id": "PAT-021",
+      "attributes": {
+        "bloodPressure": { "value": "110/70", "type": "optimal" }
+      },
+      "notes": "First visit to this clinic."
+    },
+    {
+      "name": "Viktor Volkov",
+      "id": "PAT-022",
+      "attributes": {
+        "weight": { "value": "92kg", "type": "measured" }
+      },
+      "notes": "History of lower back pain."
+    },
+    {
+      "name": "Naomi Watts",
+      "id": "PAT-023",
+      "attributes": {
+        "height": { "value": "160cm", "type": "measured" }
+      },
+      "notes": "Checkup for seasonal allergies."
+    },
+    {
+      "name": "Felix Unger",
+      "id": "PAT-024",
+      "attributes": {
+        "oxygen": { "value": "99%", "type": "excellent" }
+      },
+      "notes": "No respiratory complaints."
+    },
+    {
+      "name": "Grace Hopper",
+      "id": "PAT-025",
+      "attributes": {
+        "bloodType": { "value": "AB+", "type": "verified" }
+      },
+      "notes": "Scheduled for minor surgery next week."
+    },
+    {
+      "name": "Arthur Dent",
+      "id": "PAT-026",
+      "attributes": {
+        "stressLevel": { "value": "Extremely High", "type": "reported" }
+      },
+      "notes": "Suggesting meditation and towel therapy."
+    },
+    {
+      "name": "Yara Greyjoy",
+      "id": "PAT-027",
+      "attributes": {
+        "iron": { "value": "Low", "type": "anemic" }
+      },
+      "notes": "Iron supplements prescribed."
+    },
+    {
+      "name": "Kevin Flynn",
+      "id": "PAT-028",
+      "attributes": {
+        "vision": { "value": "20/40", "type": "myopic" }
+      },
+      "notes": "Digital eye strain likely."
+    },
+    {
+      "name": "Diana Prince",
+      "id": "PAT-029",
+      "attributes": {
+        "strength": { "value": "Superior", "type": "outlier" }
+      },
+      "notes": "Physical stamina is exceptional."
+    },
+    {
+      "name": "Peter Parker",
+      "id": "PAT-030",
+      "attributes": {
+        "metabolism": { "value": "Fast", "type": "observed" }
+      },
+      "notes": "High caloric needs, monitor for fatigue."
+    }
+  ]
+}
