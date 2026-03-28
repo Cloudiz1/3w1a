@@ -13,11 +13,24 @@ interface TrialCreationMenuProps {
     setShowCreation: (value: boolean) => void;
 }
 function TrialCreationMenu({ setShowCreation }: TrialCreationMenuProps) {
+    const [inputValue, setInputValue] = useState("");
     return <div className="fixed inset-0 flex items-center justify-center">
-        <div className="bg-white w-1/6 h-1/6 rounded-xl flex flex-col">
+        <div className="p-2 bg-white rounded-xl flex flex-col">
             <div className="flex justify-end">
                 <button onClick={() => setShowCreation(false)} className="text-red-500 pr-2">x</button>
             </div>
+            <input
+                type="text"
+                placeholder="Enter New Trial Name..."
+                className="text-black"
+                onChange={(e) => {
+                    setInputValue(e.target.value);
+                }}>
+            </input>
+            <button className="text-black" onClick={() => {
+                console.log(inputValue);
+                setShowCreation(false);
+            }}>Create New Trial</button>
         </div>
     </div>;
 }
