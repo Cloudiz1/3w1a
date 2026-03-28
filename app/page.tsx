@@ -18,16 +18,15 @@ export default function TrialPage() {
 		},
 	]
 
-	return <div className="flex h-dvh overflow-hidden">
-		<div className="top-0 left-0 w-75 h-auto p-2 m-2 flex-none overflow-y-scroll bg-blue-500 flex flex-col"> {/* sidebar */}
+	return <div className="flex w-auto h-dvh overflow-hidden">
+		<div className="top-0 left-0 flex-1 h-dvh p-2 overflow-y-scroll bg-blue-500 flex flex-col border-solid border-r-2 border-black"> {/* sidebar */}
 			{filters.map((filter, i) => {
 				return <Filter key={i} name={filter.name} kind={filter.kind} />
 			})}
 		</div>
-		<div className="top-0 left-0 w-250 h-auto p-2 m-2 ml-0 flex-none overflow-x-scroll bg-blue-500"> {/* filters */}
-			
+		<div className="top-0 left-0 flex-9 h-dvh p-2 overflow-x-scroll bg-blue-500 border-solid border-r-2 border-black"> {/* filters */}
 		</div>
-		<div className="top-0 left-0 grow h-auto p-2 m-2 ml-0 flex-none bg-blue-500"> {/* right bar */}
+		<div className="top-0 left-0 flex-4 h-dvh p-2 bg-blue-500"> {/* right bar */}
 		</div>
 	</div>
 }
