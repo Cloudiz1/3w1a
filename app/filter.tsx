@@ -1,5 +1,5 @@
-import type { FilterKind } from "./types.js"
 "use client"
+import type { FilterKind } from "./types.js"
 
 export interface FilterProp {
 	name: String,
