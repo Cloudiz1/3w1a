@@ -1,6 +1,13 @@
-import * as tr from "./trials";
+import * as ty from "./types";
 import * as trials from "./dat/trial.json" with {type:'json'};
 
 export function CreateTrial(name){
-    return new tr.Trial;
+    const trial: ty.Trial = {
+        name: name,
+        filters: new Map<String, ty.FilterKind>(),
+        eligible: Array
+
+
+    };
+    return trial
 }

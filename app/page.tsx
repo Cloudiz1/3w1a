@@ -1,6 +1,7 @@
-import type { FilterProp } from "./filter.tsx"
-import { Filter } from "./filter"
-import { FilterKind } from "./trials"
+import type { FilterProp } from "./filter.tsx";
+import { Filter } from "./filter";
+import { FilterKind } from "./types";
+import { CreateTrialButton } from "./trials";
 
 export default function TrialPage() {
 	let filters: Array<FilterProp> = [
@@ -16,10 +17,16 @@ export default function TrialPage() {
 			name: "Height",
 			kind: FilterKind.Range,
 		},
-	]
+	];
 
+<<<<<<< HEAD
 	return <div className="flex w-auto h-dvh overflow-hidden">
 		<div className="top-0 left-0 flex-1 h-dvh p-2 overflow-y-scroll bg-blue-500 flex flex-col border-solid border-r-2 border-black"> {/* sidebar */}
+=======
+	return <div className="flex h-dvh overflow-hidden">
+		<div className="top-0 left-0 w-75 h-auto p-2 m-2 flex-none overflow-y-scroll bg-blue-500 flex flex-col"> {/* sidebar */}
+            <CreateTrialButton />
+>>>>>>> 72d32793a63345d792ffd9ac639a3dc84d8c8f77
 			{filters.map((filter, i) => {
 				return <Filter key={i} name={filter.name} kind={filter.kind} />
 			})}
@@ -28,7 +35,7 @@ export default function TrialPage() {
 		</div>
 		<div className="top-0 left-0 flex-4 h-dvh p-2 bg-blue-500"> {/* right bar */}
 		</div>
-	</div>
+	</div>;
 }
 
 
