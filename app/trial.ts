@@ -1,13 +1,18 @@
 import * as ty from "./types";
-import * as trials from "./dat/trial.json" with {type:'json'};
+const fs = require('fs');
 
-export function CreateTrial(name){
+
+export function CreateTrial(name: string){
+    const datString = fs.readFileSync('./dat/trials.json', 'utf8');
+    let datJSON = JSON.parse(datString);
     const trial: ty.Trial = {
         name: name,
         filters: new Map<String, ty.FilterKind>(),
-        eligible: Array
-
-
+        eligible: new Array<ty.Patient>,
+        consented: new Array<ty.Patient>,
+        trialData: new Map<String, ty.TrialData>
     };
-    return trial
+    datJSON.trials.append(trial);
+    const writeString = JSON.stringify(datJSON, null, 2);
+    fs.writeFileSync('./dat/trials.json', writeString, 'utf8');
 }
