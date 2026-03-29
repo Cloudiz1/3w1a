@@ -1,16 +1,16 @@
 import { readFileSync } from "fs"
 import { FilterKind } from "../types"
-import { Dash } from "./Dash"
+import { Dash } from "./dash"
 
 export type FilterSchema = 
 	{
-		key: string;
+		name: string;
 		type: FilterKind.Range;
-		min: Number;
-		max: Number;
+		min: number;
+		max: number;
 	} |
 	{
-		key: string;
+		name: string;
 		type: FilterKind.Categorical | FilterKind.MultiSelect;
 		options: Array<string>;
 };
@@ -36,7 +36,7 @@ export default function TrialPage() {
 			switch (type) {
 				case FilterKind.Range: {
 					return {
-						key: category.key,
+						name: category.name,
 						type: type,
 						min: category.min,
 						max: category.max,
@@ -44,7 +44,7 @@ export default function TrialPage() {
 				}
 				default: {
 					return {
-						key: category.key,
+						name: category.name,
 						type: type,
 						options: category.option,
 					}
@@ -52,7 +52,7 @@ export default function TrialPage() {
 			}
 		})
 
-		return <Dash defaultFilters={filters.filter((x: any) => x !== undefined)} />
+		return <Dash filters={filters.filter((x: any) => x !== undefined)} />
 	} catch (e) {
 		console.log(e);
 	}
