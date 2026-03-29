@@ -1,36 +1,36 @@
 {
   "filters": [
     {
-      "name": "age",
+      "name": "Age",
       "type": "range",
       "min": 0,
       "max": 100,
       "step": 1
     },
     {
-      "name": "height",
+      "name": "Height",
       "type": "range",
       "min": 0,
       "max": 300 
     },
     {
-      "name": "weight",
+      "name": "Weight",
       "type": "range",
       "min": 100,
       "max": 1000
     },
     {
-      "name": "blood_pressure",
+      "name": "Blood Pressure",
       "type": "two_range",
       "options": ["systolic", "diastolic"]
     },
     {
-      "name": "gender",
+      "name": "Gender",
       "type": "categorical",
       "options": ["male", "female", "other"]
     },
     {
-      "name": "condition",
+      "name": "Condition",
       "type": "multi_select",
       "options": ["diabetes", "hypertension", "asthma"]
     }
