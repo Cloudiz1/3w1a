@@ -59,7 +59,7 @@ export function EditPerson({ setShowCreation: setShowEditor }: EditPersonProps) 
                 } else if (!valueValue.length) {
                     setInfoValue("No value to update the attribute with.");
                 } else {
-                    setInfoValue("")
+                    setInfoValue("");
                     fetch("/api/patient", {
                         method: "POST",
                         body: JSON.stringify({

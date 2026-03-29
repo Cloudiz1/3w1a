@@ -3,7 +3,6 @@ import { getTrials } from "./trialLogic";
 import { Trial } from "./types";
 import { TrialButton } from  "./trial";
 import { PersonEditButton } from "./personModal";
-// import { UpdatePeop } from "./updatePeop";
 
 export default function homePage() {
     return <div className="master">
