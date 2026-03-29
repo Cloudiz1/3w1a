@@ -1,242 +1,545 @@
-{
-  "patients": [
-    {
-      "name": "Evelyn Harper",
-      "id": "PAT-001",
-      "attributes": {
-        "bloodType": { "value": "O+", "type": "string" },
-        "height": { "value": 165.0, "type": "float" }
-      },
-      "notes": "Annual physical completed."
-    },
-    {
-      "name": "Marcus Chen",
-      "id": "PAT-002",
-      "attributes": {
-        "heartRate": { "value": 72, "type": "integer" },
-        "weight": { "value": 80.0, "type": "float" }
-      },
-      "notes": "No history of smoking."
-    },
-    {
-      "name": "Sarah Jenkins",
-      "id": "PAT-003",
-      "attributes": {
-        "glucose": { "value": 95, "type": "integer" }
-      },
-      "notes": "Follow-up in 3 months."
-    },
-    {
-      "name": "Liam O'Connor",
-      "id": "PAT-004",
-      "attributes": {
-        "bloodPressure": { "value": "118/75", "type": "composite" }
-      },
-      "notes": "Patient is highly active."
-    },
-    {
-      "name": "Amara Okafor",
-      "id": "PAT-005",
-      "attributes": {
-        "oxygen": { "value": 0.98, "type": "float" }
-      },
-      "notes": "Recovering from mild flu."
-    },
-    {
-      "name": "Hiroshi Tanaka",
-      "id": "PAT-006",
-      "attributes": {
-        "cholesterol": { "value": 190, "type": "integer" }
-      },
-      "notes": "Dietary adjustments recommended."
-    },
-    {
-      "name": "Elena Rodriguez",
-      "id": "PAT-007",
-      "attributes": {
-        "vision": { "value": "20/20", "type": "composite" }
-      },
-      "notes": "No corrective lenses needed."
-    },
-    {
-      "name": "Julian Vane",
-      "id": "PAT-008",
-      "attributes": {
-        "bloodType": { "value": "A-", "type": "string" }
-      },
-      "notes": "Known allergy to penicillin."
-    },
-    {
-      "name": "Sophia Schmidt",
-      "id": "PAT-009",
-      "attributes": {
-        "weight": { "value": 62.0, "type": "float" }
-      },
-      "notes": "Routine prenatal visit."
-    },
-    {
-      "name": "David Miller",
-      "id": "PAT-010",
-      "attributes": {
-        "heartRate": { "value": 88, "type": "integer" }
-      },
-      "notes": "Patient reported high stress levels."
-    },
-    {
-      "name": "Isabella Rossi",
-      "id": "PAT-011",
-      "attributes": {
-        "height": { "value": 170.0, "type": "float" }
-      },
-      "notes": "Sports physical cleared."
-    },
-    {
-      "name": "Omar Al-Farsi",
-      "id": "PAT-012",
-      "attributes": {
-        "glucose": { "value": 110, "type": "integer" }
-      },
-      "notes": "Monitor for pre-diabetes."
-    },
-    {
-      "name": "Clara Dubois",
-      "id": "PAT-013",
-      "attributes": {
-        "temp": { "value": 36.8, "type": "float" }
-      },
-      "notes": "Patient feeling well."
-    },
-    {
-      "name": "Noah Williams",
-      "id": "PAT-014",
-      "attributes": {
-        "oxygen": { "value": 0.96, "type": "float" }
-      },
-      "notes": "Smoker, advised cessation."
-    },
-    {
-      "name": "Mia Wong",
-      "id": "PAT-015",
-      "attributes": { "bloodType": { "value": "B+", "type": "string" } },
-      "notes": "Blood donor candidate."
-    },
-    {
-      "name": "Lucas Petit",
-      "id": "PAT-016",
-      "attributes": {
-        "bloodPressure": { "value": "140/90", "type": "composite" }
-      },
-      "notes": "Prescribed hypertension medication."
-    },
-    {
-      "name": "Zoe Graham",
-      "id": "PAT-017",
-      "attributes": {
-        "weight": { "value": 55.0, "type": "float" }
-      },
-      "notes": "Excellent cardiovascular health."
-    },
-    {
-      "name": "Ethan Hunt",
-      "id": "PAT-018",
-      "attributes": {
-        "heartRate": { "value": 58, "type": "integer" }
-      },
-      "notes": "Professional marathon runner."
-    },
-    {
-      "name": "Aria Stark",
-      "id": "PAT-019",
-      "attributes": {
-        "temp": { "value": 38.2, "type": "float" }
-      },
-      "notes": "Prescribed rest and fluids."
-    },
-    {
-      "name": "Mateo Garcia",
-      "id": "PAT-020",
-      "attributes": {
-        "glucose": { "value": 90, "type": "integer" }
-      },
-      "notes": "Consistent energy levels reported."
-    },
-    {
-      "name": "Sloane Peterson",
-      "id": "PAT-021",
-      "attributes": {
-        "bloodPressure": { "value": "110/70", "type": "composite" }
-      },
-      "notes": "First visit to this clinic."
-    },
-    {
-      "name": "Viktor Volkov",
-      "id": "PAT-022",
-      "attributes": {
-        "weight": { "value": 92.0, "type": "float" }
-      },
-      "notes": "History of lower back pain."
-    },
-    {
-      "name": "Naomi Watts",
-      "id": "PAT-023",
-      "attributes": {
-        "height": { "value": 160.0, "type": "float" }
-      },
-      "notes": "Checkup for seasonal allergies."
-    },
-    {
-      "name": "Felix Unger",
-      "id": "PAT-024",
-      "attributes": {
-        "oxygen": { "value": 0.99, "type": "float" }
-      },
-      "notes": "No respiratory complaints."
-    },
-    {
-      "name": "Grace Hopper",
-      "id": "PAT-025",
-      "attributes": { "bloodType": { "value": "AB+", "type": "string" } },
-      "notes": "Scheduled for minor surgery next week."
-    },
-    {
-      "name": "Arthur Dent",
-      "id": "PAT-026",
-      "attributes": {
-        "stressLevel": { "value": "Extremely High", "type": "string" }
-      },
-      "notes": "Suggesting meditation and towel therapy."
-    },
-    {
-      "name": "Yara Greyjoy",
-      "id": "PAT-027",
-      "attributes": {
-        "iron": { "value": "Low", "type": "string" }
-      },
-      "notes": "Iron supplements prescribed."
-    },
-    {
-      "name": "Kevin Flynn",
-      "id": "PAT-028",
-      "attributes": {
-        "vision": { "value": "20/40", "type": "composite" }
-      },
-      "notes": "Digital eye strain likely."
-    },
-    {
-      "name": "Diana Prince",
-      "id": "PAT-029",
-      "attributes": {
-        "strength": { "value": "Superior", "type": "string" }
-      },
-      "notes": "Physical stamina is exceptional."
-    },
-    {
-      "name": "Peter Parker",
-      "id": "PAT-030",
-      "attributes": {
-        "metabolism": { "value": "Fast", "type": "string" }
-      },
-      "notes": "High caloric needs, monitor for fatigue."
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "age": 34,
+    "height_cm": 168,
+    "weight_kg": 72,
+    "blood_pressure": { "systolic": 118, "diastolic": 76 },
+    "gender": "female",
+    "conditions": []
+  },
+  {
+    "id": 2,
+    "age": 52,
+    "height_cm": 180,
+    "weight_kg": 95,
+    "blood_pressure": { "systolic": 140, "diastolic": 90 },
+    "gender": "male",
+    "conditions": ["hypertension"]
+  },
+  {
+    "id": 3,
+    "age": 28,
+    "height_cm": 175,
+    "weight_kg": 68,
+    "blood_pressure": { "systolic": 110, "diastolic": 70 },
+    "gender": "male",
+    "conditions": []
+  },
+  {
+    "id": 4,
+    "age": 61,
+    "height_cm": 160,
+    "weight_kg": 78,
+    "blood_pressure": { "systolic": 150, "diastolic": 95 },
+    "gender": "female",
+    "conditions": ["hypertension", "diabetes"]
+  },
+  {
+    "id": 5,
+    "age": 45,
+    "height_cm": 172,
+    "weight_kg": 80,
+    "blood_pressure": { "systolic": 120, "diastolic": 80 },
+    "gender": "male",
+    "conditions": ["diabetes"]
+  },
+  {
+    "id": 6,
+    "age": 39,
+    "height_cm": 182,
+    "weight_kg": 85,
+    "blood_pressure": { "systolic": 125, "diastolic": 82 },
+    "gender": "male",
+    "conditions": []
+  },
+  {
+    "id": 7,
+    "age": 47,
+    "height_cm": 158,
+    "weight_kg": 70,
+    "blood_pressure": { "systolic": 135, "diastolic": 88 },
+    "gender": "female",
+    "conditions": ["asthma"]
+  },
+  {
+    "id": 8,
+    "age": 23,
+    "height_cm": 170,
+    "weight_kg": 65,
+    "blood_pressure": { "systolic": 108, "diastolic": 68 },
+    "gender": "female",
+    "conditions": []
+  },
+  {
+    "id": 9,
+    "age": 55,
+    "height_cm": 177,
+    "weight_kg": 92,
+    "blood_pressure": { "systolic": 145, "diastolic": 92 },
+    "gender": "male",
+    "conditions": ["hypertension"]
+  },
+  {
+    "id": 10,
+    "age": 31,
+    "height_cm": 169,
+    "weight_kg": 74,
+    "blood_pressure": { "systolic": 115, "diastolic": 75 },
+    "gender": "female",
+    "conditions": []
+  },
+  {
+    "id": 11,
+    "age": 66,
+    "height_cm": 173,
+    "weight_kg": 88,
+    "blood_pressure": { "systolic": 155, "diastolic": 98 },
+    "gender": "male",
+    "conditions": ["diabetes", "hypertension"]
+  },
+  {
+    "id": 12,
+    "age": 42,
+    "height_cm": 165,
+    "weight_kg": 69,
+    "blood_pressure": { "systolic": 122, "diastolic": 78 },
+    "gender": "female",
+    "conditions": ["asthma"]
+  },
+  {
+    "id": 13,
+    "age": 29,
+    "height_cm": 181,
+    "weight_kg": 77,
+    "blood_pressure": { "systolic": 118, "diastolic": 76 },
+    "gender": "male",
+    "conditions": []
+  },
+  {
+    "id": 14,
+    "age": 50,
+    "height_cm": 162,
+    "weight_kg": 83,
+    "blood_pressure": { "systolic": 138, "diastolic": 89 },
+    "gender": "female",
+    "conditions": ["diabetes"]
+  },
+  {
+    "id": 15,
+    "age": 37,
+    "height_cm": 176,
+    "weight_kg": 79,
+    "blood_pressure": { "systolic": 124, "diastolic": 80 },
+    "gender": "male",
+    "conditions": []
+  },
+  {
+    "id": 16,
+    "age": 44,
+    "height_cm": 168,
+    "weight_kg": 82,
+    "blood_pressure": { "systolic": 130, "diastolic": 85 },
+    "gender": "female",
+    "conditions": ["hypertension"]
+  },
+  {
+    "id": 17,
+    "age": 27,
+    "height_cm": 174,
+    "weight_kg": 71,
+    "blood_pressure": { "systolic": 112, "diastolic": 72 },
+    "gender": "male",
+    "conditions": []
+  },
+  {
+    "id": 18,
+    "age": 59,
+    "height_cm": 167,
+    "weight_kg": 90,
+    "blood_pressure": { "systolic": 148, "diastolic": 94 },
+    "gender": "female",
+    "conditions": ["hypertension", "asthma"]
+  },
+  {
+    "id": 19,
+    "age": 33,
+    "height_cm": 178,
+    "weight_kg": 76,
+    "blood_pressure": { "systolic": 119, "diastolic": 77 },
+    "gender": "male",
+    "conditions": []
+  },
+  {
+    "id": 20,
+    "age": 48,
+    "height_cm": 164,
+    "weight_kg": 81,
+    "blood_pressure": { "systolic": 136, "diastolic": 87 },
+    "gender": "female",
+    "conditions": ["diabetes"]
+  },
+
+  {
+    "id": 21,
+    "age": 41,
+    "height_cm": 183,
+    "weight_kg": 89,
+    "blood_pressure": { "systolic": 132, "diastolic": 86 },
+    "gender": "male",
+    "conditions": []
+  },
+  {
+    "id": 22,
+    "age": 36,
+    "height_cm": 159,
+    "weight_kg": 68,
+    "blood_pressure": { "systolic": 120, "diastolic": 78 },
+    "gender": "female",
+    "conditions": []
+  },
+  {
+    "id": 23,
+    "age": 62,
+    "height_cm": 171,
+    "weight_kg": 91,
+    "blood_pressure": { "systolic": 152, "diastolic": 96 },
+    "gender": "male",
+    "conditions": ["hypertension"]
+  },
+  {
+    "id": 24,
+    "age": 30,
+    "height_cm": 166,
+    "weight_kg": 73,
+    "blood_pressure": { "systolic": 114, "diastolic": 74 },
+    "gender": "female",
+    "conditions": []
+  },
+  {
+    "id": 25,
+    "age": 54,
+    "height_cm": 179,
+    "weight_kg": 94,
+    "blood_pressure": { "systolic": 142, "diastolic": 91 },
+    "gender": "male",
+    "conditions": ["diabetes"]
+  },
+  {
+    "id": 26,
+    "age": 46,
+    "height_cm": 163,
+    "weight_kg": 79,
+    "blood_pressure": { "systolic": 134, "diastolic": 86 },
+    "gender": "female",
+    "conditions": []
+  },
+  {
+    "id": 27,
+    "age": 38,
+    "height_cm": 177,
+    "weight_kg": 84,
+    "blood_pressure": { "systolic": 128, "diastolic": 83 },
+    "gender": "male",
+    "conditions": ["asthma"]
+  },
+  {
+    "id": 28,
+    "age": 26,
+    "height_cm": 169,
+    "weight_kg": 67,
+    "blood_pressure": { "systolic": 110, "diastolic": 70 },
+    "gender": "female",
+    "conditions": []
+  },
+  {
+    "id": 29,
+    "age": 60,
+    "height_cm": 175,
+    "weight_kg": 93,
+    "blood_pressure": { "systolic": 150, "diastolic": 95 },
+    "gender": "male",
+    "conditions": ["hypertension", "diabetes"]
+  },
+  {
+    "id": 30,
+    "age": 43,
+    "height_cm": 161,
+    "weight_kg": 75,
+    "blood_pressure": { "systolic": 126, "diastolic": 82 },
+    "gender": "female",
+    "conditions": []
+  },
+
+  {
+    "id": 31,
+    "age": 35,
+    "height_cm": 182,
+    "weight_kg": 86,
+    "blood_pressure": { "systolic": 130, "diastolic": 84 },
+    "gender": "male",
+    "conditions": []
+  },
+  {
+    "id": 32,
+    "age": 49,
+    "height_cm": 167,
+    "weight_kg": 82,
+    "blood_pressure": { "systolic": 138, "diastolic": 88 },
+    "gender": "female",
+    "conditions": ["diabetes"]
+  },
+  {
+    "id": 33,
+    "age": 57,
+    "height_cm": 176,
+    "weight_kg": 90,
+    "blood_pressure": { "systolic": 147, "diastolic": 93 },
+    "gender": "male",
+    "conditions": ["hypertension"]
+  },
+  {
+    "id": 34,
+    "age": 28,
+    "height_cm": 164,
+    "weight_kg": 66,
+    "blood_pressure": { "systolic": 112, "diastolic": 72 },
+    "gender": "female",
+    "conditions": []
+  },
+  {
+    "id": 35,
+    "age": 51,
+    "height_cm": 180,
+    "weight_kg": 92,
+    "blood_pressure": { "systolic": 140, "diastolic": 90 },
+    "gender": "male",
+    "conditions": ["diabetes"]
+  },
+  {
+    "id": 36,
+    "age": 40,
+    "height_cm": 162,
+    "weight_kg": 78,
+    "blood_pressure": { "systolic": 128, "diastolic": 83 },
+    "gender": "female",
+    "conditions": []
+  },
+  {
+    "id": 37,
+    "age": 63,
+    "height_cm": 174,
+    "weight_kg": 91,
+    "blood_pressure": { "systolic": 153, "diastolic": 97 },
+    "gender": "male",
+    "conditions": ["hypertension"]
+  },
+  {
+    "id": 38,
+    "age": 32,
+    "height_cm": 168,
+    "weight_kg": 72,
+    "blood_pressure": { "systolic": 118, "diastolic": 76 },
+    "gender": "female",
+    "conditions": []
+  },
+  {
+    "id": 39,
+    "age": 58,
+    "height_cm": 177,
+    "weight_kg": 89,
+    "blood_pressure": { "systolic": 146, "diastolic": 92 },
+    "gender": "male",
+    "conditions": ["diabetes", "hypertension"]
+  },
+  {
+    "id": 40,
+    "age": 29,
+    "height_cm": 165,
+    "weight_kg": 70,
+    "blood_pressure": { "systolic": 115, "diastolic": 75 },
+    "gender": "female",
+    "conditions": []
+  },
+
+  {
+    "id": 41,
+    "age": 47,
+    "height_cm": 181,
+    "weight_kg": 87,
+    "blood_pressure": { "systolic": 135, "diastolic": 88 },
+    "gender": "male",
+    "conditions": ["asthma"]
+  },
+  {
+    "id": 42,
+    "age": 53,
+    "height_cm": 169,
+    "weight_kg": 85,
+    "blood_pressure": { "systolic": 142, "diastolic": 90 },
+    "gender": "female",
+    "conditions": ["diabetes"]
+  },
+  {
+    "id": 43,
+    "age": 36,
+    "height_cm": 178,
+    "weight_kg": 80,
+    "blood_pressure": { "systolic": 125, "diastolic": 80 },
+    "gender": "male",
+    "conditions": []
+  },
+  {
+    "id": 44,
+    "age": 61,
+    "height_cm": 163,
+    "weight_kg": 88,
+    "blood_pressure": { "systolic": 150, "diastolic": 95 },
+    "gender": "female",
+    "conditions": ["hypertension"]
+  },
+  {
+    "id": 45,
+    "age": 25,
+    "height_cm": 172,
+    "weight_kg": 69,
+    "blood_pressure": { "systolic": 110, "diastolic": 70 },
+    "gender": "male",
+    "conditions": []
+  },
+  {
+    "id": 46,
+    "age": 48,
+    "height_cm": 166,
+    "weight_kg": 82,
+    "blood_pressure": { "systolic": 138, "diastolic": 87 },
+    "gender": "female",
+    "conditions": ["asthma"]
+  },
+  {
+    "id": 47,
+    "age": 56,
+    "height_cm": 179,
+    "weight_kg": 93,
+    "blood_pressure": { "systolic": 145, "diastolic": 92 },
+    "gender": "male",
+    "conditions": ["diabetes"]
+  },
+  {
+    "id": 48,
+    "age": 33,
+    "height_cm": 170,
+    "weight_kg": 74,
+    "blood_pressure": { "systolic": 120, "diastolic": 78 },
+    "gender": "female",
+    "conditions": []
+  },
+  {
+    "id": 49,
+    "age": 64,
+    "height_cm": 175,
+    "weight_kg": 90,
+    "blood_pressure": { "systolic": 152, "diastolic": 96 },
+    "gender": "male",
+    "conditions": ["hypertension", "diabetes"]
+  },
+  {
+    "id": 50,
+    "age": 38,
+    "height_cm": 168,
+    "weight_kg": 76,
+    "blood_pressure": { "systolic": 126, "diastolic": 82 },
+    "gender": "female",
+    "conditions": []
+  },
+  {
+    "id": 51,
+    "age": 16,
+    "height_cm": 165,
+    "weight_kg": 60,
+    "blood_pressure": { "systolic": 108, "diastolic": 70 },
+    "gender": "female",
+    "conditions": []
+  },
+  {
+    "id": 52,
+    "age": 17,
+    "height_cm": 170,
+    "weight_kg": 68,
+    "blood_pressure": { "systolic": 110, "diastolic": 72 },
+    "gender": "male",
+    "conditions": []
+  },
+  {
+    "id": 53,
+    "age": 15,
+    "height_cm": 160,
+    "weight_kg": 55,
+    "blood_pressure": { "systolic": 105, "diastolic": 68 },
+    "gender": "female",
+    "conditions": ["asthma"]
+  },
+  {
+    "id": 54,
+    "age": 19,
+    "height_cm": 175,
+    "weight_kg": 72,
+    "blood_pressure": { "systolic": 112, "diastolic": 74 },
+    "gender": "male",
+    "conditions": []
+  },
+  {
+    "id": 55,
+    "age": 18,
+    "height_cm": 168,
+    "weight_kg": 65,
+    "blood_pressure": { "systolic": 110, "diastolic": 72 },
+    "gender": "female",
+    "conditions": []
+  },
+  {
+    "id": 56,
+    "age": 20,
+    "height_cm": 178,
+    "weight_kg": 75,
+    "blood_pressure": { "systolic": 115, "diastolic": 76 },
+    "gender": "male",
+    "conditions": []
+  },
+  {
+    "id": 57,
+    "age": 14,
+    "height_cm": 158,
+    "weight_kg": 52,
+    "blood_pressure": { "systolic": 102, "diastolic": 66 },
+    "gender": "female",
+    "conditions": []
+  },
+  {
+    "id": 58,
+    "age": 21,
+    "height_cm": 172,
+    "weight_kg": 70,
+    "blood_pressure": { "systolic": 118, "diastolic": 75 },
+    "gender": "male",
+    "conditions": []
+  },
+  {
+    "id": 59,
+    "age": 13,
+    "height_cm": 155,
+    "weight_kg": 50,
+    "blood_pressure": { "systolic": 100, "diastolic": 65 },
+    "gender": "female",
+    "conditions": ["asthma"]
+  },
+  {
+    "id": 60,
+    "age": 22,
+    "height_cm": 180,
+    "weight_kg": 78,
+    "blood_pressure": { "systolic": 120, "diastolic": 78 },
+    "gender": "male",
+    "conditions": []
+  }
+]

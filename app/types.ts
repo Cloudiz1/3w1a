@@ -1,7 +1,8 @@
 export enum FilterKind { // under templates on whiteboard
-	Slider,
 	Range,
 	Categorical,
+	MultiSelect,
+	TwoRange,
 }
 
 export interface Trial {

@@ -1,13 +1,14 @@
 "use client"
 import { FilterKind } from "../types"
+import { FilterSchema } from "./page"
 import MultiRangeSlider from "../../inputs/MultiRangeSlider"
 
-export interface FilterProp {
-	name: String,
-	kind: FilterKind,
-}
+// export interface FilterProp {
+// 	name: String,
+// 	kind: FilterKind,
+// }
 
-export function Filter({name, kind}: FilterProp) {
+export function Filter(filter: FilterSchema) {
 	return <div 
 		draggable
 		onDragStart={(e) => {
@@ -23,7 +24,7 @@ export function AppliedFilter({name, kind}: FilterProp) {
 	let inputForm;
 	switch (kind) {
 		case FilterKind.Range: {
-			inputForm = <MultiRangeSlider />;
+			inputForm = <MultiRangeSlider/>;
 			break;
 		}
 	}
