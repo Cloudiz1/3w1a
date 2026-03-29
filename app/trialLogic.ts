@@ -1,7 +1,6 @@
 import * as ty from "./types";
 import * as fs from "fs";
 
-
 export function CreateTrial(name: string){
     const datString = fs.readFileSync('./data/trials.json', 'utf8');
     let datJSON = JSON.parse(datString);
