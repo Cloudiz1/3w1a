@@ -4,6 +4,12 @@ export enum FilterKind { // under templates on whiteboard
 	MultiSelect,
 }
 
+export enum AttKind {
+	 Number,
+	 String,
+	 Array
+}
+
 export interface Trial {
 	name: String,
 	filters: Map<String, FilterKind>, // name to type
@@ -20,8 +26,8 @@ export interface Patient {
 }
 
 export interface Attribute {
-	value: String,
-	type: FilterKind,
+	value: String | Number | Array<String>,
+	type: AttKind,
 }
 
 export interface TrialData {
