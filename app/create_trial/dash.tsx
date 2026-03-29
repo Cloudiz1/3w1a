@@ -37,7 +37,7 @@ export function Dash({ filters }: DashProp) {
 				return <AppliedFilter key={i} filter={filter} data_ref={data_filters} />
 			})}
 		</div>
-		<div className="top-0 left-0 flex-3 h-dvh bg-blue-500 flex flex-col min-h-0 min-w-0">
+		<div style={{backgroundColor: "white"}} className="top-0 left-0 flex-3 h-dvh flex flex-col min-h-0 min-w-0">
 			<div className="top-0 left-0 flex-1 flex flex-col">
 				<div className="top-0 left-0 m-5 mb-2 flex h-1/3">
 					<p className="text-2xl text-center pt-8 flex-8 mr-2">Independent Variable</p>
@@ -54,8 +54,8 @@ export function Dash({ filters }: DashProp) {
 				</div>
 				<div className="text-lg flex-1 flex flex-col min-h-0">
 					<p className="bg-purple-500 text-center text-2xl mb-2 py-2">Dependent Variables</p>
-					<div
-						className="bg-pink-500 flex-1 min-w-0 overflow-x-auto flex items-start gap-2 p-2"
+					<div style={{backgroundColor: "#70FFB4"}}
+						className=" flex-1 min-w-0 overflow-x-auto flex items-start gap-2 p-2"
 						onDragOver={(e) => e.preventDefault()}
 						onDrop={(e) => {
 						const data = JSON.parse(e.dataTransfer.getData("filter"));
