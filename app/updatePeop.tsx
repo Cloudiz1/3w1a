@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 export function UpdatePeop() { //generate a component
     const [showCreation, setShowCreation] = useState(false);
     return <>
-        <button className="text-4xl" onClick={() => setShowCreation(true)}>+</button>
+        <button className="text-4xl" onClick={() => setShowCreation(true)}>Update Patient</button>
         {showCreation && <TrialCreationMenu setShowCreation={setShowCreation} />}
     </>;
 }
