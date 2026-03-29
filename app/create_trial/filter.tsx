@@ -2,6 +2,8 @@
 import { FilterKind } from "../types"
 import { FilterSchema } from "./page"
 import RangeSlider from "../../inputs/RangeSlider"
+import Categorical from "../../inputs/Categorical"
+import MultiSelect from "../../inputs/MultiSelect"
 
 export interface FilterProp {
 	filter: FilterSchema
@@ -15,7 +17,7 @@ export function Filter({ filter }: FilterProp) {
 		}}
 		className="cursor-grab top-0 left-0 bg-red-500 m-2 p-2 h-25">
 
-		<p className="text-sm md:text-base lg:text-2xl text-center">{filter.name}</p>
+		<p className="text-sm md:text-base lg:text-2xl text-center select-none">{filter.name}</p>
 	</div>
 }
 
@@ -31,10 +33,23 @@ export function AppliedFilter({ filter }: FilterProp) {
 			/>;
 			break;
 		}
+		case FilterKind.Categorical: {
+			inputForm = <Categorical
+				options={filter.options}
+				onChange={(option: any) => console.log(option)}
+			/>;
+			break;
+		}
+		case FilterKind.MultiSelect: {
+			inputForm = <MultiSelect
+				options={filter.options}
+				onChange={(options: Array<string>) => console.log(options)}
+			/>
+		}
 	}
 
-	return <div className="h-1/4 w-1/5 shrink-0 m-2 bg-red-500">
-		<p>{filter.name}</p>
+	return <div className="h-1/4 w-94/400 shrink-0 m-2 p-2 pl-6 pr-6 bg-red-500">
+		<p className="select-none text-center select-none h-2/4 mt-3 text-3xl">{filter.name}</p>
 		{inputForm}
 	</div>
 }

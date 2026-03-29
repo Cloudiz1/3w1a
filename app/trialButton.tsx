@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 export function CreateTrialButton() {
     const [showCreation, setShowCreation] = useState(false);
     return <>
-        <button className="text-4xl" onClick={() => setShowCreation(true)}>+</button>
+        <button className="text-4xl" onClick={() => setShowCreation(true)}>Create Trial</button>
         {showCreation && <TrialCreationMenu setShowCreation={setShowCreation} />}
     </>;
 }
