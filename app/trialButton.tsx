@@ -1,4 +1,4 @@
-"use client";
+"use Clinet";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
