@@ -1,13 +1,13 @@
-"use Server";
+"use Clinet";
 import { useState } from "react";
-import { CreateTrial } from "../trialLogic";
+import { useRouter } from "next/navigation";
 
 export function CreateTrialButton() {
     const [showCreation, setShowCreation] = useState(false);
     return <>
         <button className="text-4xl" onClick={() => setShowCreation(true)}>+</button>
         {showCreation && <TrialCreationMenu setShowCreation={setShowCreation} />}
-    </>
+    </>;
 }
 
 interface TrialCreationMenuProps {
@@ -15,6 +15,8 @@ interface TrialCreationMenuProps {
 }
 function TrialCreationMenu({ setShowCreation }: TrialCreationMenuProps) {
     const [inputValue, setInputValue] = useState("");
+    const router = useRouter();
+    const params = new URLSearchParams();
     return <div className="fixed inset-0 flex items-center justify-center">
         <div className="p-2 bg-white rounded-xl flex flex-col">
             <div className="flex justify-end">
@@ -29,9 +31,10 @@ function TrialCreationMenu({ setShowCreation }: TrialCreationMenuProps) {
                 }}>
             </input>
             <button className="text-black" onClick={() => {
-                
                 setShowCreation(false);
+                params.set("name", inputValue);
+                router.push(`/create_trial?${params.toString()}`);
             }}>Create New Trial</button>
         </div>
-    </div>
+    </div>;
 }
