@@ -14,9 +14,10 @@ export interface EditPersonProps {
     setShowCreation: (value: boolean) => void,
 }
 export function EditPerson({ setShowCreation: setShowEditor }: EditPersonProps) {
-    const [idValue, setIdValue] = useState(0);
+    const [idValue, setIdValue] = useState(NaN);
     const [attrValue, setAttrValue] = useState("");
     const [valueValue, setValueValue] = useState("");
+    const [infoValue, setInfoValue] = useState("");
 
     return <div className="fixed inset-0 flex items-center justify-center">
         <div className="p-2 bg-white rounded-xl flex flex-col">
@@ -49,17 +50,27 @@ export function EditPerson({ setShowCreation: setShowEditor }: EditPersonProps) 
                     }}>
                 </input>
             </div>
+            <div className="text-red-500">{infoValue}</div>
             <button className="text-black" onClick={() => {
-                setShowEditor(false);
+                if (idValue < 0 || isNaN(idValue)) {
+                    setInfoValue("ID must be a positive integer.");
+                } else if (!attrValue.length) {
+                    setInfoValue("No attribute to update.");
+                } else if (!valueValue.length) {
+                    setInfoValue("No value to update the attribute with.");
+                } else {
+                    setInfoValue("")
+                    fetch("/api/patient", {
+                        method: "POST",
+                        body: JSON.stringify({
+                            "id": idValue,
+                            "attr": attrValue,
+                            "value": valueValue,
+                        }),
+                    });
+                    setShowEditor(false);
+                }
 
-                fetch("/api/patient", {
-                    method: "POST",
-                    body: JSON.stringify({
-                        "id": idValue,
-                        "attr": attrValue,
-                        "value": valueValue,
-                    }),
-                });
             }}>Update Patient</button>
         </div>
     </div>

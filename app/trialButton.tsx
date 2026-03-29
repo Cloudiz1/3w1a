@@ -15,6 +15,7 @@ interface TrialCreationMenuProps {
 }
 function TrialCreationMenu({ setShowCreation }: TrialCreationMenuProps) {
     const [inputValue, setInputValue] = useState("");
+    const [infoValue, setInfoValue] = useState("");
     const router = useRouter();
     const params = new URLSearchParams();
     return <div className="fixed inset-0 flex items-center justify-center">
@@ -30,10 +31,16 @@ function TrialCreationMenu({ setShowCreation }: TrialCreationMenuProps) {
                     setInputValue(e.target.value);
                 }}>
             </input>
+            <div className="text-red-500">{infoValue}</div>
             <button className="text-black" onClick={() => {
-                setShowCreation(false);
-                params.set("name", inputValue);
-                router.push(`/create_trial?${params.toString()}`);
+                if (!inputValue.length) {
+                    setInfoValue("No name specified.");
+                } else {
+                    setInfoValue("");
+                    params.set("name", inputValue);
+                    router.push(`/create_trial?${params.toString()}`);
+                    setShowCreation(false);
+                }
             }}>Create New Trial</button>
         </div>
     </div>;
