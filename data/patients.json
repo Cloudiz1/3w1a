@@ -20,9 +20,6 @@
         "attributes": {
             "age": { "value": 52, "type": 0 },
             "height_cm": { "value": 180, "type": 0 },
-            "weight_kg": { "value": 95, "type": 0 },
-            "systolic_bp": { "value": 140, "type": 0 },
-            "diastolic_bp": { "value": 90, "type": 0 },
             "gender": { "value": "male", "type": 1 },
             "conditions": { "value":   ["hypertension"  ], "type": 2 }
         },
@@ -32,13 +29,8 @@
         "name": "Patient 3",
         "id": "3",
         "attributes": {
-            "age": { "value": 28, "type": 0 },
             "height_cm": { "value": 175, "type": 0 },
-            "weight_kg": { "value": 68, "type": 0 },
-            "systolic_bp": { "value": 110, "type": 0 },
-            "diastolic_bp": { "value": 70, "type": 0 },
-            "gender": { "value": "male", "type": 1 },
-            "conditions": { "value":   [  ], "type": 2 }
+            "weight_kg": { "value": 68, "type": 0 }
         },
         "notes": "No underlying conditions."
     },
@@ -49,8 +41,6 @@
             "age": { "value": 61, "type": 0 },
             "height_cm": { "value": 160, "type": 0 },
             "weight_kg": { "value": 78, "type": 0 },
-            "systolic_bp": { "value": 150, "type": 0 },
-            "diastolic_bp": { "value": 95, "type": 0 },
             "gender": { "value": "female", "type": 1 },
             "conditions": { "value":   ["hypertension", "diabetes"  ], "type": 2 }
         },
@@ -61,9 +51,6 @@
         "id": "5",
         "attributes": {
             "age": { "value": 45, "type": 0 },
-            "height_cm": { "value": 172, "type": 0 },
-            "weight_kg": { "value": 80, "type": 0 },
-            "systolic_bp": { "value": 120, "type": 0 },
             "diastolic_bp": { "value": 80, "type": 0 },
             "gender": { "value": "male", "type": 1 },
             "conditions": { "value":   ["diabetes"  ], "type": 2 }
@@ -79,7 +66,6 @@
             "weight_kg": { "value": 85, "type": 0 },
             "systolic_bp": { "value": 125, "type": 0 },
             "diastolic_bp": { "value": 82, "type": 0 },
-            "gender": { "value": "male", "type": 1 },
             "conditions": { "value":   [  ], "type": 2 }
         },
         "notes": "No underlying conditions."
@@ -89,8 +75,6 @@
         "id": "7",
         "attributes": {
             "age": { "value": 47, "type": 0 },
-            "height_cm": { "value": 158, "type": 0 },
-            "weight_kg": { "value": 70, "type": 0 },
             "systolic_bp": { "value": 135, "type": 0 },
             "diastolic_bp": { "value": 88, "type": 0 },
             "gender": { "value": "female", "type": 1 },
@@ -103,7 +87,6 @@
         "id": "8",
         "attributes": {
             "age": { "value": 23, "type": 0 },
-            "height_cm": { "value": 170, "type": 0 },
             "weight_kg": { "value": 65, "type": 0 },
             "systolic_bp": { "value": 108, "type": 0 },
             "diastolic_bp": { "value": 68, "type": 0 },
@@ -119,9 +102,6 @@
             "age": { "value": 55, "type": 0 },
             "height_cm": { "value": 177, "type": 0 },
             "weight_kg": { "value": 92, "type": 0 },
-            "systolic_bp": { "value": 145, "type": 0 },
-            "diastolic_bp": { "value": 92, "type": 0 },
-            "gender": { "value": "male", "type": 1 },
             "conditions": { "value":   ["hypertension"  ], "type": 2 }
         },
         "notes": "Conditions: hypertension."
