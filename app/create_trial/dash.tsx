@@ -33,7 +33,7 @@ export function Dash({ filters }: DashProp) {
 			className="top-0 left-0 flex-7 h-dvh p-2 overflow-y-scroll bg-blue-500 border-solid border-r-2 border-black flex flex-wrap content-start"
 		> 
 			{appliedFilters.map((filter, i) => {
-				return <AppliedFilter key={i} filter={filter} />
+				return <AppliedFilter key={i} filter={filter} data_ref={data_filters} />
 			})}
 		</div>
 		<div className="top-0 left-0 flex-3 h-dvh bg-blue-500 flex flex-col min-h-0 min-w-0">
@@ -81,7 +81,7 @@ export function Dash({ filters }: DashProp) {
 					alert!("You need to input an independent variable!");
 					return;
 				}
-				
+
 				const name = searchParams.get("name");
 				fetch("/api/trial", {
 					method: "POST",

@@ -1,1 +1,1 @@
-{"trials":[{"name":"a","filters":{"Age":[29,100]},"independent":"Height","dependent":["Age"]}]}
+{"trials":[{"name":"a","filters":{"Age":[25,100]},"independent":"Height","dependent":["Weight"]}]}
