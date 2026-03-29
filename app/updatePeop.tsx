@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-export function UpdatePeop() { //generate a 
+export function UpdatePeop() { //generate a component
     const [showCreation, setShowCreation] = useState(false);
     return <>
         <button className="text-4xl" onClick={() => setShowCreation(true)}>+</button>
@@ -10,10 +10,10 @@ export function UpdatePeop() { //generate a
     </>;
 }
 
-interface TrialCreationMenuProps {
+interface TrialCreationMenuProps { 
     setShowCreation: (value: boolean) => void;
 }
-function TrialCreationMenu({ setShowCreation }: TrialCreationMenuProps) {
+function TrialCreationMenu({ setShowCreation }: TrialCreationMenuProps) { //follow up component
     const [inputValue, setInputValue] = useState("");
     const router = useRouter();
     const params = new URLSearchParams();

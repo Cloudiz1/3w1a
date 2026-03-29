@@ -1,545 +1,844 @@
-[
-  {
-    "id": 1,
-    "age": 34,
-    "height_cm": 168,
-    "weight_kg": 72,
-    "blood_pressure": { "systolic": 118, "diastolic": 76 },
-    "gender": "female",
-    "conditions": []
-  },
-  {
-    "id": 2,
-    "age": 52,
-    "height_cm": 180,
-    "weight_kg": 95,
-    "blood_pressure": { "systolic": 140, "diastolic": 90 },
-    "gender": "male",
-    "conditions": ["hypertension"]
-  },
-  {
-    "id": 3,
-    "age": 28,
-    "height_cm": 175,
-    "weight_kg": 68,
-    "blood_pressure": { "systolic": 110, "diastolic": 70 },
-    "gender": "male",
-    "conditions": []
-  },
-  {
-    "id": 4,
-    "age": 61,
-    "height_cm": 160,
-    "weight_kg": 78,
-    "blood_pressure": { "systolic": 150, "diastolic": 95 },
-    "gender": "female",
-    "conditions": ["hypertension", "diabetes"]
-  },
-  {
-    "id": 5,
-    "age": 45,
-    "height_cm": 172,
-    "weight_kg": 80,
-    "blood_pressure": { "systolic": 120, "diastolic": 80 },
-    "gender": "male",
-    "conditions": ["diabetes"]
-  },
-  {
-    "id": 6,
-    "age": 39,
-    "height_cm": 182,
-    "weight_kg": 85,
-    "blood_pressure": { "systolic": 125, "diastolic": 82 },
-    "gender": "male",
-    "conditions": []
-  },
-  {
-    "id": 7,
-    "age": 47,
-    "height_cm": 158,
-    "weight_kg": 70,
-    "blood_pressure": { "systolic": 135, "diastolic": 88 },
-    "gender": "female",
-    "conditions": ["asthma"]
-  },
-  {
-    "id": 8,
-    "age": 23,
-    "height_cm": 170,
-    "weight_kg": 65,
-    "blood_pressure": { "systolic": 108, "diastolic": 68 },
-    "gender": "female",
-    "conditions": []
-  },
-  {
-    "id": 9,
-    "age": 55,
-    "height_cm": 177,
-    "weight_kg": 92,
-    "blood_pressure": { "systolic": 145, "diastolic": 92 },
-    "gender": "male",
-    "conditions": ["hypertension"]
-  },
-  {
-    "id": 10,
-    "age": 31,
-    "height_cm": 169,
-    "weight_kg": 74,
-    "blood_pressure": { "systolic": 115, "diastolic": 75 },
-    "gender": "female",
-    "conditions": []
-  },
-  {
-    "id": 11,
-    "age": 66,
-    "height_cm": 173,
-    "weight_kg": 88,
-    "blood_pressure": { "systolic": 155, "diastolic": 98 },
-    "gender": "male",
-    "conditions": ["diabetes", "hypertension"]
-  },
-  {
-    "id": 12,
-    "age": 42,
-    "height_cm": 165,
-    "weight_kg": 69,
-    "blood_pressure": { "systolic": 122, "diastolic": 78 },
-    "gender": "female",
-    "conditions": ["asthma"]
-  },
-  {
-    "id": 13,
-    "age": 29,
-    "height_cm": 181,
-    "weight_kg": 77,
-    "blood_pressure": { "systolic": 118, "diastolic": 76 },
-    "gender": "male",
-    "conditions": []
-  },
-  {
-    "id": 14,
-    "age": 50,
-    "height_cm": 162,
-    "weight_kg": 83,
-    "blood_pressure": { "systolic": 138, "diastolic": 89 },
-    "gender": "female",
-    "conditions": ["diabetes"]
-  },
-  {
-    "id": 15,
-    "age": 37,
-    "height_cm": 176,
-    "weight_kg": 79,
-    "blood_pressure": { "systolic": 124, "diastolic": 80 },
-    "gender": "male",
-    "conditions": []
-  },
-  {
-    "id": 16,
-    "age": 44,
-    "height_cm": 168,
-    "weight_kg": 82,
-    "blood_pressure": { "systolic": 130, "diastolic": 85 },
-    "gender": "female",
-    "conditions": ["hypertension"]
-  },
-  {
-    "id": 17,
-    "age": 27,
-    "height_cm": 174,
-    "weight_kg": 71,
-    "blood_pressure": { "systolic": 112, "diastolic": 72 },
-    "gender": "male",
-    "conditions": []
-  },
-  {
-    "id": 18,
-    "age": 59,
-    "height_cm": 167,
-    "weight_kg": 90,
-    "blood_pressure": { "systolic": 148, "diastolic": 94 },
-    "gender": "female",
-    "conditions": ["hypertension", "asthma"]
-  },
-  {
-    "id": 19,
-    "age": 33,
-    "height_cm": 178,
-    "weight_kg": 76,
-    "blood_pressure": { "systolic": 119, "diastolic": 77 },
-    "gender": "male",
-    "conditions": []
-  },
-  {
-    "id": 20,
-    "age": 48,
-    "height_cm": 164,
-    "weight_kg": 81,
-    "blood_pressure": { "systolic": 136, "diastolic": 87 },
-    "gender": "female",
-    "conditions": ["diabetes"]
-  },
-
-  {
-    "id": 21,
-    "age": 41,
-    "height_cm": 183,
-    "weight_kg": 89,
-    "blood_pressure": { "systolic": 132, "diastolic": 86 },
-    "gender": "male",
-    "conditions": []
-  },
-  {
-    "id": 22,
-    "age": 36,
-    "height_cm": 159,
-    "weight_kg": 68,
-    "blood_pressure": { "systolic": 120, "diastolic": 78 },
-    "gender": "female",
-    "conditions": []
-  },
-  {
-    "id": 23,
-    "age": 62,
-    "height_cm": 171,
-    "weight_kg": 91,
-    "blood_pressure": { "systolic": 152, "diastolic": 96 },
-    "gender": "male",
-    "conditions": ["hypertension"]
-  },
-  {
-    "id": 24,
-    "age": 30,
-    "height_cm": 166,
-    "weight_kg": 73,
-    "blood_pressure": { "systolic": 114, "diastolic": 74 },
-    "gender": "female",
-    "conditions": []
-  },
-  {
-    "id": 25,
-    "age": 54,
-    "height_cm": 179,
-    "weight_kg": 94,
-    "blood_pressure": { "systolic": 142, "diastolic": 91 },
-    "gender": "male",
-    "conditions": ["diabetes"]
-  },
-  {
-    "id": 26,
-    "age": 46,
-    "height_cm": 163,
-    "weight_kg": 79,
-    "blood_pressure": { "systolic": 134, "diastolic": 86 },
-    "gender": "female",
-    "conditions": []
-  },
-  {
-    "id": 27,
-    "age": 38,
-    "height_cm": 177,
-    "weight_kg": 84,
-    "blood_pressure": { "systolic": 128, "diastolic": 83 },
-    "gender": "male",
-    "conditions": ["asthma"]
-  },
-  {
-    "id": 28,
-    "age": 26,
-    "height_cm": 169,
-    "weight_kg": 67,
-    "blood_pressure": { "systolic": 110, "diastolic": 70 },
-    "gender": "female",
-    "conditions": []
-  },
-  {
-    "id": 29,
-    "age": 60,
-    "height_cm": 175,
-    "weight_kg": 93,
-    "blood_pressure": { "systolic": 150, "diastolic": 95 },
-    "gender": "male",
-    "conditions": ["hypertension", "diabetes"]
-  },
-  {
-    "id": 30,
-    "age": 43,
-    "height_cm": 161,
-    "weight_kg": 75,
-    "blood_pressure": { "systolic": 126, "diastolic": 82 },
-    "gender": "female",
-    "conditions": []
-  },
-
-  {
-    "id": 31,
-    "age": 35,
-    "height_cm": 182,
-    "weight_kg": 86,
-    "blood_pressure": { "systolic": 130, "diastolic": 84 },
-    "gender": "male",
-    "conditions": []
-  },
-  {
-    "id": 32,
-    "age": 49,
-    "height_cm": 167,
-    "weight_kg": 82,
-    "blood_pressure": { "systolic": 138, "diastolic": 88 },
-    "gender": "female",
-    "conditions": ["diabetes"]
-  },
-  {
-    "id": 33,
-    "age": 57,
-    "height_cm": 176,
-    "weight_kg": 90,
-    "blood_pressure": { "systolic": 147, "diastolic": 93 },
-    "gender": "male",
-    "conditions": ["hypertension"]
-  },
-  {
-    "id": 34,
-    "age": 28,
-    "height_cm": 164,
-    "weight_kg": 66,
-    "blood_pressure": { "systolic": 112, "diastolic": 72 },
-    "gender": "female",
-    "conditions": []
-  },
-  {
-    "id": 35,
-    "age": 51,
-    "height_cm": 180,
-    "weight_kg": 92,
-    "blood_pressure": { "systolic": 140, "diastolic": 90 },
-    "gender": "male",
-    "conditions": ["diabetes"]
-  },
-  {
-    "id": 36,
-    "age": 40,
-    "height_cm": 162,
-    "weight_kg": 78,
-    "blood_pressure": { "systolic": 128, "diastolic": 83 },
-    "gender": "female",
-    "conditions": []
-  },
-  {
-    "id": 37,
-    "age": 63,
-    "height_cm": 174,
-    "weight_kg": 91,
-    "blood_pressure": { "systolic": 153, "diastolic": 97 },
-    "gender": "male",
-    "conditions": ["hypertension"]
-  },
-  {
-    "id": 38,
-    "age": 32,
-    "height_cm": 168,
-    "weight_kg": 72,
-    "blood_pressure": { "systolic": 118, "diastolic": 76 },
-    "gender": "female",
-    "conditions": []
-  },
-  {
-    "id": 39,
-    "age": 58,
-    "height_cm": 177,
-    "weight_kg": 89,
-    "blood_pressure": { "systolic": 146, "diastolic": 92 },
-    "gender": "male",
-    "conditions": ["diabetes", "hypertension"]
-  },
-  {
-    "id": 40,
-    "age": 29,
-    "height_cm": 165,
-    "weight_kg": 70,
-    "blood_pressure": { "systolic": 115, "diastolic": 75 },
-    "gender": "female",
-    "conditions": []
-  },
-
-  {
-    "id": 41,
-    "age": 47,
-    "height_cm": 181,
-    "weight_kg": 87,
-    "blood_pressure": { "systolic": 135, "diastolic": 88 },
-    "gender": "male",
-    "conditions": ["asthma"]
-  },
-  {
-    "id": 42,
-    "age": 53,
-    "height_cm": 169,
-    "weight_kg": 85,
-    "blood_pressure": { "systolic": 142, "diastolic": 90 },
-    "gender": "female",
-    "conditions": ["diabetes"]
-  },
-  {
-    "id": 43,
-    "age": 36,
-    "height_cm": 178,
-    "weight_kg": 80,
-    "blood_pressure": { "systolic": 125, "diastolic": 80 },
-    "gender": "male",
-    "conditions": []
-  },
-  {
-    "id": 44,
-    "age": 61,
-    "height_cm": 163,
-    "weight_kg": 88,
-    "blood_pressure": { "systolic": 150, "diastolic": 95 },
-    "gender": "female",
-    "conditions": ["hypertension"]
-  },
-  {
-    "id": 45,
-    "age": 25,
-    "height_cm": 172,
-    "weight_kg": 69,
-    "blood_pressure": { "systolic": 110, "diastolic": 70 },
-    "gender": "male",
-    "conditions": []
-  },
-  {
-    "id": 46,
-    "age": 48,
-    "height_cm": 166,
-    "weight_kg": 82,
-    "blood_pressure": { "systolic": 138, "diastolic": 87 },
-    "gender": "female",
-    "conditions": ["asthma"]
-  },
-  {
-    "id": 47,
-    "age": 56,
-    "height_cm": 179,
-    "weight_kg": 93,
-    "blood_pressure": { "systolic": 145, "diastolic": 92 },
-    "gender": "male",
-    "conditions": ["diabetes"]
-  },
-  {
-    "id": 48,
-    "age": 33,
-    "height_cm": 170,
-    "weight_kg": 74,
-    "blood_pressure": { "systolic": 120, "diastolic": 78 },
-    "gender": "female",
-    "conditions": []
-  },
-  {
-    "id": 49,
-    "age": 64,
-    "height_cm": 175,
-    "weight_kg": 90,
-    "blood_pressure": { "systolic": 152, "diastolic": 96 },
-    "gender": "male",
-    "conditions": ["hypertension", "diabetes"]
-  },
-  {
-    "id": 50,
-    "age": 38,
-    "height_cm": 168,
-    "weight_kg": 76,
-    "blood_pressure": { "systolic": 126, "diastolic": 82 },
-    "gender": "female",
-    "conditions": []
-  },
-  {
-    "id": 51,
-    "age": 16,
-    "height_cm": 165,
-    "weight_kg": 60,
-    "blood_pressure": { "systolic": 108, "diastolic": 70 },
-    "gender": "female",
-    "conditions": []
-  },
-  {
-    "id": 52,
-    "age": 17,
-    "height_cm": 170,
-    "weight_kg": 68,
-    "blood_pressure": { "systolic": 110, "diastolic": 72 },
-    "gender": "male",
-    "conditions": []
-  },
-  {
-    "id": 53,
-    "age": 15,
-    "height_cm": 160,
-    "weight_kg": 55,
-    "blood_pressure": { "systolic": 105, "diastolic": 68 },
-    "gender": "female",
-    "conditions": ["asthma"]
-  },
-  {
-    "id": 54,
-    "age": 19,
-    "height_cm": 175,
-    "weight_kg": 72,
-    "blood_pressure": { "systolic": 112, "diastolic": 74 },
-    "gender": "male",
-    "conditions": []
-  },
-  {
-    "id": 55,
-    "age": 18,
-    "height_cm": 168,
-    "weight_kg": 65,
-    "blood_pressure": { "systolic": 110, "diastolic": 72 },
-    "gender": "female",
-    "conditions": []
-  },
-  {
-    "id": 56,
-    "age": 20,
-    "height_cm": 178,
-    "weight_kg": 75,
-    "blood_pressure": { "systolic": 115, "diastolic": 76 },
-    "gender": "male",
-    "conditions": []
-  },
-  {
-    "id": 57,
-    "age": 14,
-    "height_cm": 158,
-    "weight_kg": 52,
-    "blood_pressure": { "systolic": 102, "diastolic": 66 },
-    "gender": "female",
-    "conditions": []
-  },
-  {
-    "id": 58,
-    "age": 21,
-    "height_cm": 172,
-    "weight_kg": 70,
-    "blood_pressure": { "systolic": 118, "diastolic": 75 },
-    "gender": "male",
-    "conditions": []
-  },
-  {
-    "id": 59,
-    "age": 13,
-    "height_cm": 155,
-    "weight_kg": 50,
-    "blood_pressure": { "systolic": 100, "diastolic": 65 },
-    "gender": "female",
-    "conditions": ["asthma"]
-  },
-  {
-    "id": 60,
-    "age": 22,
-    "height_cm": 180,
-    "weight_kg": 78,
-    "blood_pressure": { "systolic": 120, "diastolic": 78 },
-    "gender": "male",
-    "conditions": []
-  }
-]
+{
+  "patients": [
+    {
+        "name": "Patient 1",
+        "id": "1",
+        "attributes": {
+            "age": { "value": 34, "type": 0 },
+            "height_cm": { "value": 168, "type": 0 },
+            "weight_kg": { "value": 72, "type": 0 },
+            "systolic_bp": { "value": 118, "type": 0 },
+            "diastolic_bp": { "value": 76, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 2",
+        "id": "2",
+        "attributes": {
+            "age": { "value": 52, "type": 0 },
+            "height_cm": { "value": 180, "type": 0 },
+            "weight_kg": { "value": 95, "type": 0 },
+            "systolic_bp": { "value": 140, "type": 0 },
+            "diastolic_bp": { "value": 90, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   ["hypertension"  ], "type": 2 }
+        },
+        "notes": "Conditions: hypertension."
+    },
+    {
+        "name": "Patient 3",
+        "id": "3",
+        "attributes": {
+            "age": { "value": 28, "type": 0 },
+            "height_cm": { "value": 175, "type": 0 },
+            "weight_kg": { "value": 68, "type": 0 },
+            "systolic_bp": { "value": 110, "type": 0 },
+            "diastolic_bp": { "value": 70, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 4",
+        "id": "4",
+        "attributes": {
+            "age": { "value": 61, "type": 0 },
+            "height_cm": { "value": 160, "type": 0 },
+            "weight_kg": { "value": 78, "type": 0 },
+            "systolic_bp": { "value": 150, "type": 0 },
+            "diastolic_bp": { "value": 95, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   ["hypertension", "diabetes"  ], "type": 2 }
+        },
+        "notes": "Conditions: hypertension, diabetes."
+    },
+    {
+        "name": "Patient 5",
+        "id": "5",
+        "attributes": {
+            "age": { "value": 45, "type": 0 },
+            "height_cm": { "value": 172, "type": 0 },
+            "weight_kg": { "value": 80, "type": 0 },
+            "systolic_bp": { "value": 120, "type": 0 },
+            "diastolic_bp": { "value": 80, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   ["diabetes"  ], "type": 2 }
+        },
+        "notes": "Conditions: diabetes."
+    },
+    {
+        "name": "Patient 6",
+        "id": "6",
+        "attributes": {
+            "age": { "value": 39, "type": 0 },
+            "height_cm": { "value": 182, "type": 0 },
+            "weight_kg": { "value": 85, "type": 0 },
+            "systolic_bp": { "value": 125, "type": 0 },
+            "diastolic_bp": { "value": 82, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 7",
+        "id": "7",
+        "attributes": {
+            "age": { "value": 47, "type": 0 },
+            "height_cm": { "value": 158, "type": 0 },
+            "weight_kg": { "value": 70, "type": 0 },
+            "systolic_bp": { "value": 135, "type": 0 },
+            "diastolic_bp": { "value": 88, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   ["asthma"  ], "type": 2 }
+        },
+        "notes": "Conditions: asthma."
+    },
+    {
+        "name": "Patient 8",
+        "id": "8",
+        "attributes": {
+            "age": { "value": 23, "type": 0 },
+            "height_cm": { "value": 170, "type": 0 },
+            "weight_kg": { "value": 65, "type": 0 },
+            "systolic_bp": { "value": 108, "type": 0 },
+            "diastolic_bp": { "value": 68, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 9",
+        "id": "9",
+        "attributes": {
+            "age": { "value": 55, "type": 0 },
+            "height_cm": { "value": 177, "type": 0 },
+            "weight_kg": { "value": 92, "type": 0 },
+            "systolic_bp": { "value": 145, "type": 0 },
+            "diastolic_bp": { "value": 92, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   ["hypertension"  ], "type": 2 }
+        },
+        "notes": "Conditions: hypertension."
+    },
+    {
+        "name": "Patient 10",
+        "id": "10",
+        "attributes": {
+            "age": { "value": 31, "type": 0 },
+            "height_cm": { "value": 169, "type": 0 },
+            "weight_kg": { "value": 74, "type": 0 },
+            "systolic_bp": { "value": 115, "type": 0 },
+            "diastolic_bp": { "value": 75, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 11",
+        "id": "11",
+        "attributes": {
+            "age": { "value": 66, "type": 0 },
+            "height_cm": { "value": 173, "type": 0 },
+            "weight_kg": { "value": 88, "type": 0 },
+            "systolic_bp": { "value": 155, "type": 0 },
+            "diastolic_bp": { "value": 98, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   ["diabetes", "hypertension"  ], "type": 2 }
+        },
+        "notes": "Conditions: diabetes, hypertension."
+    },
+    {
+        "name": "Patient 12",
+        "id": "12",
+        "attributes": {
+            "age": { "value": 42, "type": 0 },
+            "height_cm": { "value": 165, "type": 0 },
+            "weight_kg": { "value": 69, "type": 0 },
+            "systolic_bp": { "value": 122, "type": 0 },
+            "diastolic_bp": { "value": 78, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   ["asthma"  ], "type": 2 }
+        },
+        "notes": "Conditions: asthma."
+    },
+    {
+        "name": "Patient 13",
+        "id": "13",
+        "attributes": {
+            "age": { "value": 29, "type": 0 },
+            "height_cm": { "value": 181, "type": 0 },
+            "weight_kg": { "value": 77, "type": 0 },
+            "systolic_bp": { "value": 118, "type": 0 },
+            "diastolic_bp": { "value": 76, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 14",
+        "id": "14",
+        "attributes": {
+            "age": { "value": 50, "type": 0 },
+            "height_cm": { "value": 162, "type": 0 },
+            "weight_kg": { "value": 83, "type": 0 },
+            "systolic_bp": { "value": 138, "type": 0 },
+            "diastolic_bp": { "value": 89, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   ["diabetes"  ], "type": 2 }
+        },
+        "notes": "Conditions: diabetes."
+    },
+    {
+        "name": "Patient 15",
+        "id": "15",
+        "attributes": {
+            "age": { "value": 37, "type": 0 },
+            "height_cm": { "value": 176, "type": 0 },
+            "weight_kg": { "value": 79, "type": 0 },
+            "systolic_bp": { "value": 124, "type": 0 },
+            "diastolic_bp": { "value": 80, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 16",
+        "id": "16",
+        "attributes": {
+            "age": { "value": 44, "type": 0 },
+            "height_cm": { "value": 168, "type": 0 },
+            "weight_kg": { "value": 82, "type": 0 },
+            "systolic_bp": { "value": 130, "type": 0 },
+            "diastolic_bp": { "value": 85, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   ["hypertension"  ], "type": 2 }
+        },
+        "notes": "Conditions: hypertension."
+    },
+    {
+        "name": "Patient 17",
+        "id": "17",
+        "attributes": {
+            "age": { "value": 27, "type": 0 },
+            "height_cm": { "value": 174, "type": 0 },
+            "weight_kg": { "value": 71, "type": 0 },
+            "systolic_bp": { "value": 112, "type": 0 },
+            "diastolic_bp": { "value": 72, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 18",
+        "id": "18",
+        "attributes": {
+            "age": { "value": 59, "type": 0 },
+            "height_cm": { "value": 167, "type": 0 },
+            "weight_kg": { "value": 90, "type": 0 },
+            "systolic_bp": { "value": 148, "type": 0 },
+            "diastolic_bp": { "value": 94, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   ["hypertension", "asthma"  ], "type": 2 }
+        },
+        "notes": "Conditions: hypertension, asthma."
+    },
+    {
+        "name": "Patient 19",
+        "id": "19",
+        "attributes": {
+            "age": { "value": 33, "type": 0 },
+            "height_cm": { "value": 178, "type": 0 },
+            "weight_kg": { "value": 76, "type": 0 },
+            "systolic_bp": { "value": 119, "type": 0 },
+            "diastolic_bp": { "value": 77, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 20",
+        "id": "20",
+        "attributes": {
+            "age": { "value": 48, "type": 0 },
+            "height_cm": { "value": 164, "type": 0 },
+            "weight_kg": { "value": 81, "type": 0 },
+            "systolic_bp": { "value": 136, "type": 0 },
+            "diastolic_bp": { "value": 87, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   ["diabetes"  ], "type": 2 }
+        },
+        "notes": "Conditions: diabetes."
+    },
+    {
+        "name": "Patient 21",
+        "id": "21",
+        "attributes": {
+            "age": { "value": 41, "type": 0 },
+            "height_cm": { "value": 183, "type": 0 },
+            "weight_kg": { "value": 89, "type": 0 },
+            "systolic_bp": { "value": 132, "type": 0 },
+            "diastolic_bp": { "value": 86, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 22",
+        "id": "22",
+        "attributes": {
+            "age": { "value": 36, "type": 0 },
+            "height_cm": { "value": 159, "type": 0 },
+            "weight_kg": { "value": 68, "type": 0 },
+            "systolic_bp": { "value": 120, "type": 0 },
+            "diastolic_bp": { "value": 78, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 23",
+        "id": "23",
+        "attributes": {
+            "age": { "value": 62, "type": 0 },
+            "height_cm": { "value": 171, "type": 0 },
+            "weight_kg": { "value": 91, "type": 0 },
+            "systolic_bp": { "value": 152, "type": 0 },
+            "diastolic_bp": { "value": 96, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   ["hypertension"  ], "type": 2 }
+        },
+        "notes": "Conditions: hypertension."
+    },
+    {
+        "name": "Patient 24",
+        "id": "24",
+        "attributes": {
+            "age": { "value": 30, "type": 0 },
+            "height_cm": { "value": 166, "type": 0 },
+            "weight_kg": { "value": 73, "type": 0 },
+            "systolic_bp": { "value": 114, "type": 0 },
+            "diastolic_bp": { "value": 74, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 25",
+        "id": "25",
+        "attributes": {
+            "age": { "value": 54, "type": 0 },
+            "height_cm": { "value": 179, "type": 0 },
+            "weight_kg": { "value": 94, "type": 0 },
+            "systolic_bp": { "value": 142, "type": 0 },
+            "diastolic_bp": { "value": 91, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   ["diabetes"  ], "type": 2 }
+        },
+        "notes": "Conditions: diabetes."
+    },
+    {
+        "name": "Patient 26",
+        "id": "26",
+        "attributes": {
+            "age": { "value": 46, "type": 0 },
+            "height_cm": { "value": 163, "type": 0 },
+            "weight_kg": { "value": 79, "type": 0 },
+            "systolic_bp": { "value": 134, "type": 0 },
+            "diastolic_bp": { "value": 86, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 27",
+        "id": "27",
+        "attributes": {
+            "age": { "value": 38, "type": 0 },
+            "height_cm": { "value": 177, "type": 0 },
+            "weight_kg": { "value": 84, "type": 0 },
+            "systolic_bp": { "value": 128, "type": 0 },
+            "diastolic_bp": { "value": 83, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   ["asthma"  ], "type": 2 }
+        },
+        "notes": "Conditions: asthma."
+    },
+    {
+        "name": "Patient 28",
+        "id": "28",
+        "attributes": {
+            "age": { "value": 26, "type": 0 },
+            "height_cm": { "value": 169, "type": 0 },
+            "weight_kg": { "value": 67, "type": 0 },
+            "systolic_bp": { "value": 110, "type": 0 },
+            "diastolic_bp": { "value": 70, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 29",
+        "id": "29",
+        "attributes": {
+            "age": { "value": 60, "type": 0 },
+            "height_cm": { "value": 175, "type": 0 },
+            "weight_kg": { "value": 93, "type": 0 },
+            "systolic_bp": { "value": 150, "type": 0 },
+            "diastolic_bp": { "value": 95, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   ["hypertension", "diabetes"  ], "type": 2 }
+        },
+        "notes": "Conditions: hypertension, diabetes."
+    },
+    {
+        "name": "Patient 30",
+        "id": "30",
+        "attributes": {
+            "age": { "value": 43, "type": 0 },
+            "height_cm": { "value": 161, "type": 0 },
+            "weight_kg": { "value": 75, "type": 0 },
+            "systolic_bp": { "value": 126, "type": 0 },
+            "diastolic_bp": { "value": 82, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 31",
+        "id": "31",
+        "attributes": {
+            "age": { "value": 35, "type": 0 },
+            "height_cm": { "value": 182, "type": 0 },
+            "weight_kg": { "value": 86, "type": 0 },
+            "systolic_bp": { "value": 130, "type": 0 },
+            "diastolic_bp": { "value": 84, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 32",
+        "id": "32",
+        "attributes": {
+            "age": { "value": 49, "type": 0 },
+            "height_cm": { "value": 167, "type": 0 },
+            "weight_kg": { "value": 82, "type": 0 },
+            "systolic_bp": { "value": 138, "type": 0 },
+            "diastolic_bp": { "value": 88, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   ["diabetes"  ], "type": 2 }
+        },
+        "notes": "Conditions: diabetes."
+    },
+    {
+        "name": "Patient 33",
+        "id": "33",
+        "attributes": {
+            "age": { "value": 57, "type": 0 },
+            "height_cm": { "value": 176, "type": 0 },
+            "weight_kg": { "value": 90, "type": 0 },
+            "systolic_bp": { "value": 147, "type": 0 },
+            "diastolic_bp": { "value": 93, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   ["hypertension"  ], "type": 2 }
+        },
+        "notes": "Conditions: hypertension."
+    },
+    {
+        "name": "Patient 34",
+        "id": "34",
+        "attributes": {
+            "age": { "value": 28, "type": 0 },
+            "height_cm": { "value": 164, "type": 0 },
+            "weight_kg": { "value": 66, "type": 0 },
+            "systolic_bp": { "value": 112, "type": 0 },
+            "diastolic_bp": { "value": 72, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 35",
+        "id": "35",
+        "attributes": {
+            "age": { "value": 51, "type": 0 },
+            "height_cm": { "value": 180, "type": 0 },
+            "weight_kg": { "value": 92, "type": 0 },
+            "systolic_bp": { "value": 140, "type": 0 },
+            "diastolic_bp": { "value": 90, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   ["diabetes"  ], "type": 2 }
+        },
+        "notes": "Conditions: diabetes."
+    },
+    {
+        "name": "Patient 36",
+        "id": "36",
+        "attributes": {
+            "age": { "value": 40, "type": 0 },
+            "height_cm": { "value": 162, "type": 0 },
+            "weight_kg": { "value": 78, "type": 0 },
+            "systolic_bp": { "value": 128, "type": 0 },
+            "diastolic_bp": { "value": 83, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 37",
+        "id": "37",
+        "attributes": {
+            "age": { "value": 63, "type": 0 },
+            "height_cm": { "value": 174, "type": 0 },
+            "weight_kg": { "value": 91, "type": 0 },
+            "systolic_bp": { "value": 153, "type": 0 },
+            "diastolic_bp": { "value": 97, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   ["hypertension"  ], "type": 2 }
+        },
+        "notes": "Conditions: hypertension."
+    },
+    {
+        "name": "Patient 38",
+        "id": "38",
+        "attributes": {
+            "age": { "value": 32, "type": 0 },
+            "height_cm": { "value": 168, "type": 0 },
+            "weight_kg": { "value": 72, "type": 0 },
+            "systolic_bp": { "value": 118, "type": 0 },
+            "diastolic_bp": { "value": 76, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 39",
+        "id": "39",
+        "attributes": {
+            "age": { "value": 58, "type": 0 },
+            "height_cm": { "value": 177, "type": 0 },
+            "weight_kg": { "value": 89, "type": 0 },
+            "systolic_bp": { "value": 146, "type": 0 },
+            "diastolic_bp": { "value": 92, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   ["diabetes", "hypertension"  ], "type": 2 }
+        },
+        "notes": "Conditions: diabetes, hypertension."
+    },
+    {
+        "name": "Patient 40",
+        "id": "40",
+        "attributes": {
+            "age": { "value": 29, "type": 0 },
+            "height_cm": { "value": 165, "type": 0 },
+            "weight_kg": { "value": 70, "type": 0 },
+            "systolic_bp": { "value": 115, "type": 0 },
+            "diastolic_bp": { "value": 75, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 41",
+        "id": "41",
+        "attributes": {
+            "age": { "value": 47, "type": 0 },
+            "height_cm": { "value": 181, "type": 0 },
+            "weight_kg": { "value": 87, "type": 0 },
+            "systolic_bp": { "value": 135, "type": 0 },
+            "diastolic_bp": { "value": 88, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   ["asthma"  ], "type": 2 }
+        },
+        "notes": "Conditions: asthma."
+    },
+    {
+        "name": "Patient 42",
+        "id": "42",
+        "attributes": {
+            "age": { "value": 53, "type": 0 },
+            "height_cm": { "value": 169, "type": 0 },
+            "weight_kg": { "value": 85, "type": 0 },
+            "systolic_bp": { "value": 142, "type": 0 },
+            "diastolic_bp": { "value": 90, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   ["diabetes"  ], "type": 2 }
+        },
+        "notes": "Conditions: diabetes."
+    },
+    {
+        "name": "Patient 43",
+        "id": "43",
+        "attributes": {
+            "age": { "value": 36, "type": 0 },
+            "height_cm": { "value": 178, "type": 0 },
+            "weight_kg": { "value": 80, "type": 0 },
+            "systolic_bp": { "value": 125, "type": 0 },
+            "diastolic_bp": { "value": 80, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 44",
+        "id": "44",
+        "attributes": {
+            "age": { "value": 61, "type": 0 },
+            "height_cm": { "value": 163, "type": 0 },
+            "weight_kg": { "value": 88, "type": 0 },
+            "systolic_bp": { "value": 150, "type": 0 },
+            "diastolic_bp": { "value": 95, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   ["hypertension"  ], "type": 2 }
+        },
+        "notes": "Conditions: hypertension."
+    },
+    {
+        "name": "Patient 45",
+        "id": "45",
+        "attributes": {
+            "age": { "value": 25, "type": 0 },
+            "height_cm": { "value": 172, "type": 0 },
+            "weight_kg": { "value": 69, "type": 0 },
+            "systolic_bp": { "value": 110, "type": 0 },
+            "diastolic_bp": { "value": 70, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 46",
+        "id": "46",
+        "attributes": {
+            "age": { "value": 48, "type": 0 },
+            "height_cm": { "value": 166, "type": 0 },
+            "weight_kg": { "value": 82, "type": 0 },
+            "systolic_bp": { "value": 138, "type": 0 },
+            "diastolic_bp": { "value": 87, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   ["asthma"  ], "type": 2 }
+        },
+        "notes": "Conditions: asthma."
+    },
+    {
+        "name": "Patient 47",
+        "id": "47",
+        "attributes": {
+            "age": { "value": 56, "type": 0 },
+            "height_cm": { "value": 179, "type": 0 },
+            "weight_kg": { "value": 93, "type": 0 },
+            "systolic_bp": { "value": 145, "type": 0 },
+            "diastolic_bp": { "value": 92, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   ["diabetes"  ], "type": 2 }
+        },
+        "notes": "Conditions: diabetes."
+    },
+    {
+        "name": "Patient 48",
+        "id": "48",
+        "attributes": {
+            "age": { "value": 33, "type": 0 },
+            "height_cm": { "value": 170, "type": 0 },
+            "weight_kg": { "value": 74, "type": 0 },
+            "systolic_bp": { "value": 120, "type": 0 },
+            "diastolic_bp": { "value": 78, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 49",
+        "id": "49",
+        "attributes": {
+            "age": { "value": 64, "type": 0 },
+            "height_cm": { "value": 175, "type": 0 },
+            "weight_kg": { "value": 90, "type": 0 },
+            "systolic_bp": { "value": 152, "type": 0 },
+            "diastolic_bp": { "value": 96, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   ["hypertension", "diabetes"  ], "type": 2 }
+        },
+        "notes": "Conditions: hypertension, diabetes."
+    },
+    {
+        "name": "Patient 50",
+        "id": "50",
+        "attributes": {
+            "age": { "value": 38, "type": 0 },
+            "height_cm": { "value": 168, "type": 0 },
+            "weight_kg": { "value": 76, "type": 0 },
+            "systolic_bp": { "value": 126, "type": 0 },
+            "diastolic_bp": { "value": 82, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 51",
+        "id": "51",
+        "attributes": {
+            "age": { "value": 16, "type": 0 },
+            "height_cm": { "value": 165, "type": 0 },
+            "weight_kg": { "value": 60, "type": 0 },
+            "systolic_bp": { "value": 108, "type": 0 },
+            "diastolic_bp": { "value": 70, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 52",
+        "id": "52",
+        "attributes": {
+            "age": { "value": 17, "type": 0 },
+            "height_cm": { "value": 170, "type": 0 },
+            "weight_kg": { "value": 68, "type": 0 },
+            "systolic_bp": { "value": 110, "type": 0 },
+            "diastolic_bp": { "value": 72, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 53",
+        "id": "53",
+        "attributes": {
+            "age": { "value": 15, "type": 0 },
+            "height_cm": { "value": 160, "type": 0 },
+            "weight_kg": { "value": 55, "type": 0 },
+            "systolic_bp": { "value": 105, "type": 0 },
+            "diastolic_bp": { "value": 68, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   ["asthma"  ], "type": 2 }
+        },
+        "notes": "Conditions: asthma."
+    },
+    {
+        "name": "Patient 54",
+        "id": "54",
+        "attributes": {
+            "age": { "value": 19, "type": 0 },
+            "height_cm": { "value": 175, "type": 0 },
+            "weight_kg": { "value": 72, "type": 0 },
+            "systolic_bp": { "value": 112, "type": 0 },
+            "diastolic_bp": { "value": 74, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 55",
+        "id": "55",
+        "attributes": {
+            "age": { "value": 18, "type": 0 },
+            "height_cm": { "value": 168, "type": 0 },
+            "weight_kg": { "value": 65, "type": 0 },
+            "systolic_bp": { "value": 110, "type": 0 },
+            "diastolic_bp": { "value": 72, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 56",
+        "id": "56",
+        "attributes": {
+            "age": { "value": 20, "type": 0 },
+            "height_cm": { "value": 178, "type": 0 },
+            "weight_kg": { "value": 75, "type": 0 },
+            "systolic_bp": { "value": 115, "type": 0 },
+            "diastolic_bp": { "value": 76, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 57",
+        "id": "57",
+        "attributes": {
+            "age": { "value": 14, "type": 0 },
+            "height_cm": { "value": 158, "type": 0 },
+            "weight_kg": { "value": 52, "type": 0 },
+            "systolic_bp": { "value": 102, "type": 0 },
+            "diastolic_bp": { "value": 66, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 58",
+        "id": "58",
+        "attributes": {
+            "age": { "value": 21, "type": 0 },
+            "height_cm": { "value": 172, "type": 0 },
+            "weight_kg": { "value": 70, "type": 0 },
+            "systolic_bp": { "value": 118, "type": 0 },
+            "diastolic_bp": { "value": 75, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    },
+    {
+        "name": "Patient 59",
+        "id": "59",
+        "attributes": {
+            "age": { "value": 13, "type": 0 },
+            "height_cm": { "value": 155, "type": 0 },
+            "weight_kg": { "value": 50, "type": 0 },
+            "systolic_bp": { "value": 100, "type": 0 },
+            "diastolic_bp": { "value": 65, "type": 0 },
+            "gender": { "value": "female", "type": 1 },
+            "conditions": { "value":   ["asthma"  ], "type": 2 }
+        },
+        "notes": "Conditions: asthma."
+    },
+    {
+        "name": "Patient 60",
+        "id": "60",
+        "attributes": {
+            "age": { "value": 22, "type": 0 },
+            "height_cm": { "value": 180, "type": 0 },
+            "weight_kg": { "value": 78, "type": 0 },
+            "systolic_bp": { "value": 120, "type": 0 },
+            "diastolic_bp": { "value": 78, "type": 0 },
+            "gender": { "value": "male", "type": 1 },
+            "conditions": { "value":   [  ], "type": 2 }
+        },
+        "notes": "No underlying conditions."
+    }
+  ]
+}
