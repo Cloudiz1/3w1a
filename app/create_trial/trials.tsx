@@ -1,6 +1,6 @@
 "use Server";
 import { useState } from "react";
-import { CreateTrial } from "./trial";
+import { CreateTrial } from "../trialLogic";
 
 export function CreateTrialButton() {
     const [showCreation, setShowCreation] = useState(false);
