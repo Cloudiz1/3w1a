@@ -21,3 +21,7 @@ export function getTrials(){
     let datJSON = JSON.parse(datString);
     return datJSON.trials;
 }
+
+export function updateTrial(name: String, ){
+
+}
