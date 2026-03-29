@@ -10,7 +10,7 @@ export interface FilterProp {
 }
 
 export function Filter({ filter }: FilterProp) {
-	return <div 
+	return <div style={{backgroundColor: "#70FFB4"}
 		draggable
 		onDragStart={(e) => {
 			e.dataTransfer.setData("filter", JSON.stringify(filter))

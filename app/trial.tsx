@@ -6,7 +6,15 @@ export interface TrialProp {
 
 export function TrialButton({ Trial }: TrialProp) {
     return <div 
-        className="cursor-grab top-0 left-0 bg-light-grey-500 m-2 p-2 h-25">
+        className="top-0 left-0 flex-7 h-dvh p-2 overflow-y-scroll bg-blue-500 border-solid border-r-2 border-black flex flex-wrap content-start"
+        style={{
+            width: '300px', 
+                backgroundColor: '#70FFB4', 
+                padding: '20px',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '20px'
+        }}>
         <p className="text-sm md:text-base lg:text-2xl text-center">{Trial.name}</p>
     </div>
 }

@@ -4,10 +4,26 @@ import { useRouter } from "next/navigation";
 
 export function CreateTrialButton() {
     const [showCreation, setShowCreation] = useState(false);
-    return <>
-        <button className="text-4xl" onClick={() => setShowCreation(true)}>Create Trial</button>
-        {showCreation && <TrialCreationMenu setShowCreation={setShowCreation} />}
-    </>;
+    return (
+        <>
+            <button style={{ 
+                width: '95%', 
+                backgroundColor: '#70FFB4',  
+                color:"black",
+                height: "40%",
+                display: 'flex',
+                borderRadius: "15px",
+                flexDirection: 'column',
+                gap: '20px',
+                marginBottom: "5%"
+            }}   className="bg-emerald-400 hover:bg-emerald-500 text-slate-900 font-bold py-4 px-6 rounded-xl transition-colors shadow-md text-2xl" 
+                onClick={() => setShowCreation(true)}
+            >
+                Create Trial
+            </button>
+            {showCreation && <TrialCreationMenu setShowCreation={setShowCreation} />}
+        </>
+    );
 }
 
 interface TrialCreationMenuProps {
@@ -17,8 +33,9 @@ function TrialCreationMenu({ setShowCreation }: TrialCreationMenuProps) {
     const [inputValue, setInputValue] = useState("");
     const router = useRouter();
     const params = new URLSearchParams();
-    return <div className="fixed inset-0 flex items-center justify-center">
-        <div className="p-2 bg-white rounded-xl flex flex-col">
+    return <div style={{backgroundColor: "lightgray", width:"25%", height:"25%"}}
+    className="fixed inset-0 bg-light_gray flex items-center justify-center">
+        <div>
             <div className="flex justify-end">
                 <button onClick={() => setShowCreation(false)} className="text-red-500 pr-2">x</button>
             </div>
