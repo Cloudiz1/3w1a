@@ -3,12 +3,15 @@ import { Filter, AppliedFilter } from "./filter"
 import { useState, useRef } from "react"
 import { useSearchParams } from "next/navigation"
 import { FilterSchema } from "./page"
+import { Patient } from "../types"
 
 interface DashProp {
 	filters: Array<FilterSchema>;
+	patients: Array<Patient>;
 }
 
-export function Dash({ filters }: DashProp) {
+export function Dash({ filters, patients }: DashProp) {
+	console.log(patients);
 	let [appliedFilters, setAppliedFilters] = useState<Array<FilterSchema>>([]);
 	let [independent, setIndependent] = useState<FilterSchema | undefined>();
 	let [dependent, setDependent] = useState<Array<FilterSchema>>([]);

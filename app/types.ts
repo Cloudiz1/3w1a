@@ -14,7 +14,6 @@ export interface Trial {
 	name: String,
 	filters: Map<String, Filter>, // name to type
 	eligible: Array<Patient>,
-	consented: Array<Patient>,
 	trialData: Map<String, TrialData>, // id to data
 }
 

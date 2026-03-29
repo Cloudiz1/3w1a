@@ -1,5 +1,5 @@
 import { readFileSync } from "fs"
-import { FilterKind } from "../types"
+import { FilterKind, Patient, Attribute } from "../types"
 import { Dash } from "./dash"
 
 export type FilterSchema = 
@@ -26,9 +26,30 @@ function getKind(type: String): FilterKind | undefined {
 	}
 }
 
+function parsePatients(data: any[]): Patient[] {
+	return data.map((p) => {
+		const attrMap = new Map<string, Attribute>();
+
+		for (const [key, raw] of Object.entries(p.attributes || {})) {
+			const attr = raw as Attribute;
+			attrMap.set(key, attr);
+		}
+
+		return {
+			name: p.name,
+			id: p.id,
+			attributes: attrMap,
+			notes: p.notes,
+		};
+	});
+}
+
 export default function TrialPage() {
 	try {
 		let data = JSON.parse(readFileSync("./data/categories.json", "utf-8"));
+		let patient_data = JSON.parse(readFileSync("./data/patients.json", "utf-8"));
+		let patients = parsePatients(patient_data.patients);
+
 		let filters: Array<FilterSchema> = data.filters.map((category: any) => {
 			let type = getKind(category.type);
 			if (type === undefined) return undefined;
@@ -52,9 +73,8 @@ export default function TrialPage() {
 			}
 		})
 
-		return <Dash filters={filters.filter((x: any) => x !== undefined)} />
+		return <Dash filters={filters.filter((x: any) => x !== undefined)} patients={patients} />;
 	} catch (e) {
 		console.log(e);
 	}
-
 }
