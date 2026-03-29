@@ -5,7 +5,19 @@
       "id": "PAT-001",
       "attributes": {
         "bloodType": { "value": "O+", "type": "string" },
-        "height": { "value": 165.0, "type": "float" }
+        "height": { "value": 165.0, "type": "float" },
+        "heartRate": { "value": 68, "type": "integer" },
+        "weight": { "value": 62.5, "type": "float" },
+        "glucose": { "value": 92, "type": "integer" },
+        "bloodPressure": { "value": "115/75", "type": "composite" },
+        "oxygen": { "value": 0.99, "type": "float" },
+        "cholesterol": { "value": 180, "type": "integer" },
+        "vision": { "value": "20/20", "type": "composite" },
+        "temp": { "value": 36.6, "type": "float" },
+        "stressLevel": { "value": "Low", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Average", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "Annual physical completed."
     },
@@ -13,8 +25,20 @@
       "name": "Marcus Chen",
       "id": "PAT-002",
       "attributes": {
+        "bloodType": { "value": "B-", "type": "string" },
+        "height": { "value": 182.0, "type": "float" },
         "heartRate": { "value": 72, "type": "integer" },
-        "weight": { "value": 80.0, "type": "float" }
+        "weight": { "value": 80.0, "type": "float" },
+        "glucose": { "value": 105, "type": "integer" },
+        "bloodPressure": { "value": "122/80", "type": "composite" },
+        "oxygen": { "value": 0.97, "type": "float" },
+        "cholesterol": { "value": 210, "type": "integer" },
+        "vision": { "value": "20/30", "type": "composite" },
+        "temp": { "value": 37.0, "type": "float" },
+        "stressLevel": { "value": "Moderate", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "High", "type": "string" },
+        "metabolism": { "value": "Fast", "type": "string" }
       },
       "notes": "No history of smoking."
     },
@@ -22,7 +46,20 @@
       "name": "Sarah Jenkins",
       "id": "PAT-003",
       "attributes": {
-        "glucose": { "value": 95, "type": "integer" }
+        "bloodType": { "value": "A+", "type": "string" },
+        "height": { "value": 158.0, "type": "float" },
+        "heartRate": { "value": 75, "type": "integer" },
+        "weight": { "value": 54.0, "type": "float" },
+        "glucose": { "value": 95, "type": "integer" },
+        "bloodPressure": { "value": "110/70", "type": "composite" },
+        "oxygen": { "value": 0.98, "type": "float" },
+        "cholesterol": { "value": 195, "type": "integer" },
+        "vision": { "value": "20/20", "type": "composite" },
+        "temp": { "value": 36.8, "type": "float" },
+        "stressLevel": { "value": "High", "type": "string" },
+        "iron": { "value": "Low", "type": "string" },
+        "strength": { "value": "Average", "type": "string" },
+        "metabolism": { "value": "Slow", "type": "string" }
       },
       "notes": "Follow-up in 3 months."
     },
@@ -30,7 +67,20 @@
       "name": "Liam O'Connor",
       "id": "PAT-004",
       "attributes": {
-        "bloodPressure": { "value": "118/75", "type": "composite" }
+        "bloodType": { "value": "O-", "type": "string" },
+        "height": { "value": 178.0, "type": "float" },
+        "heartRate": { "value": 62, "type": "integer" },
+        "weight": { "value": 76.0, "type": "float" },
+        "glucose": { "value": 88, "type": "integer" },
+        "bloodPressure": { "value": "118/75", "type": "composite" },
+        "oxygen": { "value": 0.99, "type": "float" },
+        "cholesterol": { "value": 165, "type": "integer" },
+        "vision": { "value": "20/15", "type": "composite" },
+        "temp": { "value": 36.5, "type": "float" },
+        "stressLevel": { "value": "Low", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Superior", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "Patient is highly active."
     },
@@ -38,7 +88,20 @@
       "name": "Amara Okafor",
       "id": "PAT-005",
       "attributes": {
-        "oxygen": { "value": 0.98, "type": "float" }
+        "bloodType": { "value": "AB-", "type": "string" },
+        "height": { "value": 172.0, "type": "float" },
+        "heartRate": { "value": 80, "type": "integer" },
+        "weight": { "value": 68.0, "type": "float" },
+        "glucose": { "value": 102, "type": "integer" },
+        "bloodPressure": { "value": "125/82", "type": "composite" },
+        "oxygen": { "value": 0.98, "type": "float" },
+        "cholesterol": { "value": 205, "type": "integer" },
+        "vision": { "value": "20/25", "type": "composite" },
+        "temp": { "value": 37.8, "type": "float" },
+        "stressLevel": { "value": "Moderate", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Average", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "Recovering from mild flu."
     },
@@ -46,7 +109,20 @@
       "name": "Hiroshi Tanaka",
       "id": "PAT-006",
       "attributes": {
-        "cholesterol": { "value": 190, "type": "integer" }
+        "bloodType": { "value": "A+", "type": "string" },
+        "height": { "value": 170.0, "type": "float" },
+        "heartRate": { "value": 70, "type": "integer" },
+        "weight": { "value": 74.0, "type": "float" },
+        "glucose": { "value": 115, "type": "integer" },
+        "bloodPressure": { "value": "130/85", "type": "composite" },
+        "oxygen": { "value": 0.98, "type": "float" },
+        "cholesterol": { "value": 190, "type": "integer" },
+        "vision": { "value": "20/20", "type": "composite" },
+        "temp": { "value": 36.7, "type": "float" },
+        "stressLevel": { "value": "Moderate", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Average", "type": "string" },
+        "metabolism": { "value": "Slow", "type": "string" }
       },
       "notes": "Dietary adjustments recommended."
     },
@@ -54,7 +130,20 @@
       "name": "Elena Rodriguez",
       "id": "PAT-007",
       "attributes": {
-        "vision": { "value": "20/20", "type": "composite" }
+        "bloodType": { "value": "O+", "type": "string" },
+        "height": { "value": 163.0, "type": "float" },
+        "heartRate": { "value": 72, "type": "integer" },
+        "weight": { "value": 58.0, "type": "float" },
+        "glucose": { "value": 89, "type": "integer" },
+        "bloodPressure": { "value": "112/72", "type": "composite" },
+        "oxygen": { "value": 0.99, "type": "float" },
+        "cholesterol": { "value": 175, "type": "integer" },
+        "vision": { "value": "20/20", "type": "composite" },
+        "temp": { "value": 36.6, "type": "float" },
+        "stressLevel": { "value": "Low", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Average", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "No corrective lenses needed."
     },
@@ -62,7 +151,20 @@
       "name": "Julian Vane",
       "id": "PAT-008",
       "attributes": {
-        "bloodType": { "value": "A-", "type": "string" }
+        "bloodType": { "value": "A-", "type": "string" },
+        "height": { "value": 185.0, "type": "float" },
+        "heartRate": { "value": 78, "type": "integer" },
+        "weight": { "value": 88.0, "type": "float" },
+        "glucose": { "value": 98, "type": "integer" },
+        "bloodPressure": { "value": "128/84", "type": "composite" },
+        "oxygen": { "value": 0.97, "type": "float" },
+        "cholesterol": { "value": 200, "type": "integer" },
+        "vision": { "value": "20/40", "type": "composite" },
+        "temp": { "value": 36.9, "type": "float" },
+        "stressLevel": { "value": "Moderate", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "High", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "Known allergy to penicillin."
     },
@@ -70,7 +172,20 @@
       "name": "Sophia Schmidt",
       "id": "PAT-009",
       "attributes": {
-        "weight": { "value": 62.0, "type": "float" }
+        "bloodType": { "value": "B+", "type": "string" },
+        "height": { "value": 168.0, "type": "float" },
+        "heartRate": { "value": 82, "type": "integer" },
+        "weight": { "value": 62.0, "type": "float" },
+        "glucose": { "value": 90, "type": "integer" },
+        "bloodPressure": { "value": "114/76", "type": "composite" },
+        "oxygen": { "value": 0.98, "type": "float" },
+        "cholesterol": { "value": 185, "type": "integer" },
+        "vision": { "value": "20/20", "type": "composite" },
+        "temp": { "value": 37.1, "type": "float" },
+        "stressLevel": { "value": "Moderate", "type": "string" },
+        "iron": { "value": "High", "type": "string" },
+        "strength": { "value": "Average", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "Routine prenatal visit."
     },
@@ -78,7 +193,20 @@
       "name": "David Miller",
       "id": "PAT-010",
       "attributes": {
-        "heartRate": { "value": 88, "type": "integer" }
+        "bloodType": { "value": "O+", "type": "string" },
+        "height": { "value": 175.0, "type": "float" },
+        "heartRate": { "value": 88, "type": "integer" },
+        "weight": { "value": 82.0, "type": "float" },
+        "glucose": { "value": 108, "type": "integer" },
+        "bloodPressure": { "value": "135/88", "type": "composite" },
+        "oxygen": { "value": 0.96, "type": "float" },
+        "cholesterol": { "value": 220, "type": "integer" },
+        "vision": { "value": "20/30", "type": "composite" },
+        "temp": { "value": 37.2, "type": "float" },
+        "stressLevel": { "value": "Extremely High", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Average", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "Patient reported high stress levels."
     },
@@ -86,7 +214,20 @@
       "name": "Isabella Rossi",
       "id": "PAT-011",
       "attributes": {
-        "height": { "value": 170.0, "type": "float" }
+        "bloodType": { "value": "A+", "type": "string" },
+        "height": { "value": 170.0, "type": "float" },
+        "heartRate": { "value": 64, "type": "integer" },
+        "weight": { "value": 59.0, "type": "float" },
+        "glucose": { "value": 85, "type": "integer" },
+        "bloodPressure": { "value": "110/68", "type": "composite" },
+        "oxygen": { "value": 0.99, "type": "float" },
+        "cholesterol": { "value": 160, "type": "integer" },
+        "vision": { "value": "20/20", "type": "composite" },
+        "temp": { "value": 36.5, "type": "float" },
+        "stressLevel": { "value": "Low", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "High", "type": "string" },
+        "metabolism": { "value": "Fast", "type": "string" }
       },
       "notes": "Sports physical cleared."
     },
@@ -94,7 +235,20 @@
       "name": "Omar Al-Farsi",
       "id": "PAT-012",
       "attributes": {
-        "glucose": { "value": 110, "type": "integer" }
+        "bloodType": { "value": "B+", "type": "string" },
+        "height": { "value": 180.0, "type": "float" },
+        "heartRate": { "value": 76, "type": "integer" },
+        "weight": { "value": 85.0, "type": "float" },
+        "glucose": { "value": 110, "type": "integer" },
+        "bloodPressure": { "value": "126/82", "type": "composite" },
+        "oxygen": { "value": 0.97, "type": "float" },
+        "cholesterol": { "value": 215, "type": "integer" },
+        "vision": { "value": "20/25", "type": "composite" },
+        "temp": { "value": 36.8, "type": "float" },
+        "stressLevel": { "value": "Moderate", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Average", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "Monitor for pre-diabetes."
     },
@@ -102,7 +256,20 @@
       "name": "Clara Dubois",
       "id": "PAT-013",
       "attributes": {
-        "temp": { "value": 36.8, "type": "float" }
+        "bloodType": { "value": "AB+", "type": "string" },
+        "height": { "value": 162.0, "type": "float" },
+        "heartRate": { "value": 70, "type": "integer" },
+        "weight": { "value": 56.0, "type": "float" },
+        "glucose": { "value": 94, "type": "integer" },
+        "bloodPressure": { "value": "112/74", "type": "composite" },
+        "oxygen": { "value": 0.98, "type": "float" },
+        "cholesterol": { "value": 170, "type": "integer" },
+        "vision": { "value": "20/20", "type": "composite" },
+        "temp": { "value": 36.8, "type": "float" },
+        "stressLevel": { "value": "Low", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Average", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "Patient feeling well."
     },
@@ -110,21 +277,62 @@
       "name": "Noah Williams",
       "id": "PAT-014",
       "attributes": {
-        "oxygen": { "value": 0.96, "type": "float" }
+        "bloodType": { "value": "O+", "type": "string" },
+        "height": { "value": 177.0, "type": "float" },
+        "heartRate": { "value": 84, "type": "integer" },
+        "weight": { "value": 79.0, "type": "float" },
+        "glucose": { "value": 102, "type": "integer" },
+        "bloodPressure": { "value": "132/86", "type": "composite" },
+        "oxygen": { "value": 0.96, "type": "float" },
+        "cholesterol": { "value": 230, "type": "integer" },
+        "vision": { "value": "20/40", "type": "composite" },
+        "temp": { "value": 37.0, "type": "float" },
+        "stressLevel": { "value": "Moderate", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Average", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "Smoker, advised cessation."
     },
     {
       "name": "Mia Wong",
       "id": "PAT-015",
-      "attributes": { "bloodType": { "value": "B+", "type": "string" } },
+      "attributes": {
+        "bloodType": { "value": "B+", "type": "string" },
+        "height": { "value": 160.0, "type": "float" },
+        "heartRate": { "value": 68, "type": "integer" },
+        "weight": { "value": 52.0, "type": "float" },
+        "glucose": { "value": 88, "type": "integer" },
+        "bloodPressure": { "value": "108/68", "type": "composite" },
+        "oxygen": { "value": 0.99, "type": "float" },
+        "cholesterol": { "value": 155, "type": "integer" },
+        "vision": { "value": "20/15", "type": "composite" },
+        "temp": { "value": 36.4, "type": "float" },
+        "stressLevel": { "value": "Low", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Average", "type": "string" },
+        "metabolism": { "value": "Fast", "type": "string" }
+      },
       "notes": "Blood donor candidate."
     },
     {
       "name": "Lucas Petit",
       "id": "PAT-016",
       "attributes": {
-        "bloodPressure": { "value": "140/90", "type": "composite" }
+        "bloodType": { "value": "A+", "type": "string" },
+        "height": { "value": 174.0, "type": "float" },
+        "heartRate": { "value": 76, "type": "integer" },
+        "weight": { "value": 84.0, "type": "float" },
+        "glucose": { "value": 112, "type": "integer" },
+        "bloodPressure": { "value": "140/90", "type": "composite" },
+        "oxygen": { "value": 0.97, "type": "float" },
+        "cholesterol": { "value": 240, "type": "integer" },
+        "vision": { "value": "20/30", "type": "composite" },
+        "temp": { "value": 36.7, "type": "float" },
+        "stressLevel": { "value": "Moderate", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Average", "type": "string" },
+        "metabolism": { "value": "Slow", "type": "string" }
       },
       "notes": "Prescribed hypertension medication."
     },
@@ -132,7 +340,20 @@
       "name": "Zoe Graham",
       "id": "PAT-017",
       "attributes": {
-        "weight": { "value": 55.0, "type": "float" }
+        "bloodType": { "value": "O-", "type": "string" },
+        "height": { "value": 167.0, "type": "float" },
+        "heartRate": { "value": 65, "type": "integer" },
+        "weight": { "value": 55.0, "type": "float" },
+        "glucose": { "value": 91, "type": "integer" },
+        "bloodPressure": { "value": "110/70", "type": "composite" },
+        "oxygen": { "value": 0.99, "type": "float" },
+        "cholesterol": { "value": 165, "type": "integer" },
+        "vision": { "value": "20/20", "type": "composite" },
+        "temp": { "value": 36.6, "type": "float" },
+        "stressLevel": { "value": "Low", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "High", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "Excellent cardiovascular health."
     },
@@ -140,7 +361,20 @@
       "name": "Ethan Hunt",
       "id": "PAT-018",
       "attributes": {
-        "heartRate": { "value": 58, "type": "integer" }
+        "bloodType": { "value": "B-", "type": "string" },
+        "height": { "value": 178.0, "type": "float" },
+        "heartRate": { "value": 58, "type": "integer" },
+        "weight": { "value": 70.0, "type": "float" },
+        "glucose": { "value": 85, "type": "integer" },
+        "bloodPressure": { "value": "105/65", "type": "composite" },
+        "oxygen": { "value": 0.99, "type": "float" },
+        "cholesterol": { "value": 150, "type": "integer" },
+        "vision": { "value": "20/15", "type": "composite" },
+        "temp": { "value": 36.5, "type": "float" },
+        "stressLevel": { "value": "Low", "type": "string" },
+        "iron": { "value": "High", "type": "string" },
+        "strength": { "value": "Superior", "type": "string" },
+        "metabolism": { "value": "Fast", "type": "string" }
       },
       "notes": "Professional marathon runner."
     },
@@ -148,7 +382,20 @@
       "name": "Aria Stark",
       "id": "PAT-019",
       "attributes": {
-        "temp": { "value": 38.2, "type": "float" }
+        "bloodType": { "value": "AB-", "type": "string" },
+        "height": { "value": 155.0, "type": "float" },
+        "heartRate": { "value": 90, "type": "integer" },
+        "weight": { "value": 48.0, "type": "float" },
+        "glucose": { "value": 96, "type": "integer" },
+        "bloodPressure": { "value": "118/78", "type": "composite" },
+        "oxygen": { "value": 0.97, "type": "float" },
+        "cholesterol": { "value": 175, "type": "integer" },
+        "vision": { "value": "20/20", "type": "composite" },
+        "temp": { "value": 38.2, "type": "float" },
+        "stressLevel": { "value": "Moderate", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "High", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "Prescribed rest and fluids."
     },
@@ -156,7 +403,20 @@
       "name": "Mateo Garcia",
       "id": "PAT-020",
       "attributes": {
-        "glucose": { "value": 90, "type": "integer" }
+        "bloodType": { "value": "O+", "type": "string" },
+        "height": { "value": 181.0, "type": "float" },
+        "heartRate": { "value": 72, "type": "integer" },
+        "weight": { "value": 83.0, "type": "float" },
+        "glucose": { "value": 90, "type": "integer" },
+        "bloodPressure": { "value": "120/80", "type": "composite" },
+        "oxygen": { "value": 0.98, "type": "float" },
+        "cholesterol": { "value": 188, "type": "integer" },
+        "vision": { "value": "20/25", "type": "composite" },
+        "temp": { "value": 36.7, "type": "float" },
+        "stressLevel": { "value": "Low", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Average", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "Consistent energy levels reported."
     },
@@ -164,7 +424,20 @@
       "name": "Sloane Peterson",
       "id": "PAT-021",
       "attributes": {
-        "bloodPressure": { "value": "110/70", "type": "composite" }
+        "bloodType": { "value": "A+", "type": "string" },
+        "height": { "value": 165.0, "type": "float" },
+        "heartRate": { "value": 74, "type": "integer" },
+        "weight": { "value": 60.0, "type": "float" },
+        "glucose": { "value": 93, "type": "integer" },
+        "bloodPressure": { "value": "110/70", "type": "composite" },
+        "oxygen": { "value": 0.98, "type": "float" },
+        "cholesterol": { "value": 172, "type": "integer" },
+        "vision": { "value": "20/20", "type": "composite" },
+        "temp": { "value": 36.6, "type": "float" },
+        "stressLevel": { "value": "Moderate", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Average", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "First visit to this clinic."
     },
@@ -172,7 +445,20 @@
       "name": "Viktor Volkov",
       "id": "PAT-022",
       "attributes": {
-        "weight": { "value": 92.0, "type": "float" }
+        "bloodType": { "value": "B-", "type": "string" },
+        "height": { "value": 188.0, "type": "float" },
+        "heartRate": { "value": 70, "type": "integer" },
+        "weight": { "value": 92.0, "type": "float" },
+        "glucose": { "value": 104, "type": "integer" },
+        "bloodPressure": { "value": "128/82", "type": "composite" },
+        "oxygen": { "value": 0.98, "type": "float" },
+        "cholesterol": { "value": 210, "type": "integer" },
+        "vision": { "value": "20/30", "type": "composite" },
+        "temp": { "value": 36.9, "type": "float" },
+        "stressLevel": { "value": "Moderate", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "High", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "History of lower back pain."
     },
@@ -180,7 +466,20 @@
       "name": "Naomi Watts",
       "id": "PAT-023",
       "attributes": {
-        "height": { "value": 160.0, "type": "float" }
+        "bloodType": { "value": "O+", "type": "string" },
+        "height": { "value": 160.0, "type": "float" },
+        "heartRate": { "value": 72, "type": "integer" },
+        "weight": { "value": 55.0, "type": "float" },
+        "glucose": { "value": 90, "type": "integer" },
+        "bloodPressure": { "value": "115/75", "type": "composite" },
+        "oxygen": { "value": 0.99, "type": "float" },
+        "cholesterol": { "value": 180, "type": "integer" },
+        "vision": { "value": "20/20", "type": "composite" },
+        "temp": { "value": 36.7, "type": "float" },
+        "stressLevel": { "value": "Low", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Average", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "Checkup for seasonal allergies."
     },
@@ -188,21 +487,62 @@
       "name": "Felix Unger",
       "id": "PAT-024",
       "attributes": {
-        "oxygen": { "value": 0.99, "type": "float" }
+        "bloodType": { "value": "A-", "type": "string" },
+        "height": { "value": 179.0, "type": "float" },
+        "heartRate": { "value": 68, "type": "integer" },
+        "weight": { "value": 73.0, "type": "float" },
+        "glucose": { "value": 97, "type": "integer" },
+        "bloodPressure": { "value": "118/76", "type": "composite" },
+        "oxygen": { "value": 0.99, "type": "float" },
+        "cholesterol": { "value": 190, "type": "integer" },
+        "vision": { "value": "20/20", "type": "composite" },
+        "temp": { "value": 36.6, "type": "float" },
+        "stressLevel": { "value": "High", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Average", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "No respiratory complaints."
     },
     {
       "name": "Grace Hopper",
       "id": "PAT-025",
-      "attributes": { "bloodType": { "value": "AB+", "type": "string" } },
+      "attributes": {
+        "bloodType": { "value": "AB+", "type": "string" },
+        "height": { "value": 168.0, "type": "float" },
+        "heartRate": { "value": 72, "type": "integer" },
+        "weight": { "value": 64.0, "type": "float" },
+        "glucose": { "value": 99, "type": "integer" },
+        "bloodPressure": { "value": "120/80", "type": "composite" },
+        "oxygen": { "value": 0.98, "type": "float" },
+        "cholesterol": { "value": 185, "type": "integer" },
+        "vision": { "value": "20/20", "type": "composite" },
+        "temp": { "value": 36.8, "type": "float" },
+        "stressLevel": { "value": "Moderate", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Superior", "type": "string" },
+        "metabolism": { "value": "Fast", "type": "string" }
+      },
       "notes": "Scheduled for minor surgery next week."
     },
     {
       "name": "Arthur Dent",
       "id": "PAT-026",
       "attributes": {
-        "stressLevel": { "value": "Extremely High", "type": "string" }
+        "bloodType": { "value": "O-", "type": "string" },
+        "height": { "value": 183.0, "type": "float" },
+        "heartRate": { "value": 95, "type": "integer" },
+        "weight": { "value": 78.0, "type": "float" },
+        "glucose": { "value": 105, "type": "integer" },
+        "bloodPressure": { "value": "145/95", "type": "composite" },
+        "oxygen": { "value": 0.98, "type": "float" },
+        "cholesterol": { "value": 210, "type": "integer" },
+        "vision": { "value": "20/40", "type": "composite" },
+        "temp": { "value": 37.1, "type": "float" },
+        "stressLevel": { "value": "Extremely High", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Average", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "Suggesting meditation and towel therapy."
     },
@@ -210,7 +550,20 @@
       "name": "Yara Greyjoy",
       "id": "PAT-027",
       "attributes": {
-        "iron": { "value": "Low", "type": "string" }
+        "bloodType": { "value": "B+", "type": "string" },
+        "height": { "value": 172.0, "type": "float" },
+        "heartRate": { "value": 68, "type": "integer" },
+        "weight": { "value": 65.0, "type": "float" },
+        "glucose": { "value": 85, "type": "integer" },
+        "bloodPressure": { "value": "112/72", "type": "composite" },
+        "oxygen": { "value": 0.99, "type": "float" },
+        "cholesterol": { "value": 160, "type": "integer" },
+        "vision": { "value": "20/20", "type": "composite" },
+        "temp": { "value": 36.5, "type": "float" },
+        "stressLevel": { "value": "Low", "type": "string" },
+        "iron": { "value": "Low", "type": "string" },
+        "strength": { "value": "High", "type": "string" },
+        "metabolism": { "value": "Normal", "type": "string" }
       },
       "notes": "Iron supplements prescribed."
     },
@@ -218,7 +571,20 @@
       "name": "Kevin Flynn",
       "id": "PAT-028",
       "attributes": {
-        "vision": { "value": "20/40", "type": "composite" }
+        "bloodType": { "value": "A+", "type": "string" },
+        "height": { "value": 185.0, "type": "float" },
+        "heartRate": { "value": 74, "type": "integer" },
+        "weight": { "value": 80.0, "type": "float" },
+        "glucose": { "value": 98, "type": "integer" },
+        "bloodPressure": { "value": "120/80", "type": "composite" },
+        "oxygen": { "value": 0.98, "type": "float" },
+        "cholesterol": { "value": 195, "type": "integer" },
+        "vision": { "value": "20/40", "type": "composite" },
+        "temp": { "value": 36.8, "type": "float" },
+        "stressLevel": { "value": "Moderate", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Average", "type": "string" },
+        "metabolism": { "value": "Fast", "type": "string" }
       },
       "notes": "Digital eye strain likely."
     },
@@ -226,7 +592,20 @@
       "name": "Diana Prince",
       "id": "PAT-029",
       "attributes": {
-        "strength": { "value": "Superior", "type": "string" }
+        "bloodType": { "value": "AB-", "type": "string" },
+        "height": { "value": 178.0, "type": "float" },
+        "heartRate": { "value": 60, "type": "integer" },
+        "weight": { "value": 75.0, "type": "float" },
+        "glucose": { "value": 82, "type": "integer" },
+        "bloodPressure": { "value": "110/65", "type": "composite" },
+        "oxygen": { "value": 1.0, "type": "float" },
+        "cholesterol": { "value": 140, "type": "integer" },
+        "vision": { "value": "20/10", "type": "composite" },
+        "temp": { "value": 36.6, "type": "float" },
+        "stressLevel": { "value": "Low", "type": "string" },
+        "iron": { "value": "High", "type": "string" },
+        "strength": { "value": "Superior", "type": "string" },
+        "metabolism": { "value": "Fast", "type": "string" }
       },
       "notes": "Physical stamina is exceptional."
     },
@@ -234,6 +613,19 @@
       "name": "Peter Parker",
       "id": "PAT-030",
       "attributes": {
+        "bloodType": { "value": "O+", "type": "string" },
+        "height": { "value": 174.0, "type": "float" },
+        "heartRate": { "value": 62, "type": "integer" },
+        "weight": { "value": 72.0, "type": "float" },
+        "glucose": { "value": 88, "type": "integer" },
+        "bloodPressure": { "value": "115/70", "type": "composite" },
+        "oxygen": { "value": 0.99, "type": "float" },
+        "cholesterol": { "value": 155, "type": "integer" },
+        "vision": { "value": "20/15", "type": "composite" },
+        "temp": { "value": 36.7, "type": "float" },
+        "stressLevel": { "value": "Moderate", "type": "string" },
+        "iron": { "value": "Normal", "type": "string" },
+        "strength": { "value": "Superior", "type": "string" },
         "metabolism": { "value": "Fast", "type": "string" }
       },
       "notes": "High caloric needs, monitor for fatigue."
