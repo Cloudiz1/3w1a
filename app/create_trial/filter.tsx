@@ -2,6 +2,8 @@
 import { FilterKind } from "../types"
 import { FilterSchema } from "./page"
 import RangeSlider from "../../inputs/RangeSlider"
+import Categorical from "../../inputs/Categorical"
+import MultiSelect from "../../inputs/MultiSelect"
 
 export interface FilterProp {
 	filter: FilterSchema
@@ -30,6 +32,19 @@ export function AppliedFilter({ filter }: FilterProp) {
 				onChange={(range: any) => console.log(range)}
 			/>;
 			break;
+		}
+		case FilterKind.Categorical: {
+			inputForm = <Categorical
+				options={filter.options}
+				onChange={(option: any) => console.log(option)}
+			/>;
+			break;
+		}
+		case FilterKind.MultiSelect: {
+			inputForm = <MultiSelect
+				options={filter.options}
+				onChange={(options: Array<string>) => console.log(options)}
+			/>
 		}
 	}
 

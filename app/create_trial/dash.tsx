@@ -7,7 +7,7 @@ interface DashProp {
 	filters: Array<FilterSchema>;
 }
 
-export function Dash({ filters: filters }: DashProp) {
+export function Dash({ filters }: DashProp) {
 	let [appliedFilters, setAppliedFilters] = useState<Array<FilterSchema>>([]);
 
     return <div className="flex w-auto h-dvh overflow-hidden">

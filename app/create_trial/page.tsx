@@ -46,7 +46,7 @@ export default function TrialPage() {
 					return {
 						name: category.name,
 						type: type,
-						options: category.option,
+						options: category.options,
 					}
 				}
 			}
