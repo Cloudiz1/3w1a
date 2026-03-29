@@ -19,11 +19,7 @@ export async function POST(request: Request) {
 		trials.push(body);
 	}
 
-	writeFileSync("./data/trials.json", JSON.stringify({
-		trials
-	}));
-
-	console.log(trials);
+	writeFileSync("./data/trials.json", JSON.stringify({ trials }));
 
 	return new Response();
 }

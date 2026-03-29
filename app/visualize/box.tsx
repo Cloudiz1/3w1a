@@ -22,16 +22,22 @@ export default function BoxPlot({ patients, indep, dep, flip=false }: BoxPlotPro
         }],
     };
 
+    console.log(patients);
+    let yaxis = [Infinity, -Infinity];
     for (const person of patients) {
         if (indep in person.attributes && dep in person.attributes) {
             const label: string = person.attributes[indep].value;
             const index = data.labels.indexOf(label);
+            const value = person.attributes[dep].value;
+
             if (index < 0) {
                 data.labels.push(label);
-                data.datasets[0].data.push([person.attributes[dep].value]);
+                data.datasets[0].data.push([value]);
             } else {
-                data.datasets[0].data[index].push(person.attributes[dep].value); 
+                data.datasets[0].data[index].push(value); 
             }
+            if (value < yaxis[0]) yaxis[0] = value;
+            if (value > yaxis[1]) yaxis[1] = value;
         }
     }
 
@@ -49,6 +55,8 @@ export default function BoxPlot({ patients, indep, dep, flip=false }: BoxPlotPro
                     display: true,
                     text: dep,
                 },
+                min: yaxis[0] - 0.1 * (yaxis[1] - yaxis[0]),
+                max: yaxis[1] + 0.1 * (yaxis[1] - yaxis[0]),
             },
         },
         indexAxis: flip ? "y" : "x",

@@ -1,1 +1,1 @@
-{"trials":[{"name":"a","filters":{"Gender":"female","Weight":[347,860],"Height":[49,199],"Age":[29,87]},"independent":"Condition","dependent":["Age"]}]}
+{"trials":[{"name":null,"filters":{"height_cm":[69,300]},"independent":"gender","dependent":["height_cm"]}]}

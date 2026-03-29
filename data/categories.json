@@ -1,20 +1,20 @@
 {
   "filters": [
     {
-      "name": "Age",
+      "name": "age",
       "type": "range",
       "min": 0,
       "max": 100,
       "step": 1
     },
     {
-      "name": "Height",
+      "name": "height_cm",
       "type": "range",
       "min": 0,
       "max": 300 
     },
     {
-      "name": "Weight",
+      "name": "weight_kg",
       "type": "range",
       "min": 100,
       "max": 1000
@@ -25,7 +25,7 @@
       "options": ["systolic", "diastolic"]
     },
     {
-      "name": "Gender",
+      "name": "gender",
       "type": "categorical",
       "options": ["male", "female", "other"]
     },
