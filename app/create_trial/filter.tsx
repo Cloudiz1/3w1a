@@ -1,7 +1,6 @@
 "use client"
 import { FilterKind } from "../types"
 import { FilterSchema } from "./page"
-import { forwardRef } from "react"
 import RangeSlider from "../../inputs/RangeSlider"
 import Categorical from "../../inputs/Categorical"
 import MultiSelect from "../../inputs/MultiSelect"
@@ -22,12 +21,7 @@ export function Filter({ filter }: FilterProp) {
 	</div>
 }
 
-interface AppliedFilterProp {
-	filter: FilterSchema,
-	data_ref: any,
-}
-
-export function AppliedFilter({ filter, data_ref }: AppliedFilterProp) {
+export function AppliedFilter({ filter }: FilterProp) {
 	console.log(filter);
 	let inputForm;
 	switch (filter.type) {
@@ -35,21 +29,21 @@ export function AppliedFilter({ filter, data_ref }: AppliedFilterProp) {
 			inputForm = <RangeSlider 
 				min={filter.min} 
 				max={filter.max}
-				onChange={(range: any) => data_ref.current.set(filter.name, range)}
+				onChange={(range: any) => console.log(range)}
 			/>;
 			break;
 		}
 		case FilterKind.Categorical: {
 			inputForm = <Categorical
 				options={filter.options}
-				onChange={(option: any) => data_ref.current.set(filter.name, option)}
+				onChange={(option: any) => console.log(option)}
 			/>;
 			break;
 		}
 		case FilterKind.MultiSelect: {
 			inputForm = <MultiSelect
 				options={filter.options}
-				onChange={(options: Array<string>) => data_ref.current.set(filter.name, options)}
+				onChange={(options: Array<string>) => console.log(options)}
 			/>
 		}
 	}
