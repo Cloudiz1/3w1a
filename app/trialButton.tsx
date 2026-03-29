@@ -1,6 +1,11 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { Trial } from "./types";
+
+export interface TrialProp {
+    Trial: Trial
+}
 
 export function CreateTrialButton() {
     const [showCreation, setShowCreation] = useState(false);
@@ -32,8 +37,6 @@ interface TrialCreationMenuProps {
 function TrialCreationMenu({ setShowCreation }: TrialCreationMenuProps) {
     const [inputValue, setInputValue] = useState("");
     const [infoValue, setInfoValue] = useState("");
-    const router = useRouter();
-    const params = new URLSearchParams();
     return <div style={{backgroundColor: "lightgray", width:"25%", height:"25%"}}
     className="fixed inset-0 bg-light_gray flex items-center justify-center">
         <div>
@@ -53,12 +56,36 @@ function TrialCreationMenu({ setShowCreation }: TrialCreationMenuProps) {
                 if (!inputValue.length) {
                     setInfoValue("No name specified.");
                 } else {
-                    setInfoValue("");
-                    params.set("name", inputValue);
-                    router.push(`/create_trial?${params.toString()}`);
+                    setInfoValue("");  
                     setShowCreation(false);
+                    swapPage(infoValue);
                 }
             }}>Create New Trial</button>
         </div>
     </div>;
 }
+
+export function swapPage(name: string){
+    
+}
+
+export function TrialB({Trial}: TrialProp){
+    
+    const router = useRouter();
+    const params = new URLSearchParams();
+    return <div style={{ 
+                                width: '55%', 
+                                backgroundColor: '#70FFB4',
+                                color:"black",  
+                                height: "20%",
+                                display: 'flex',
+                                borderRadius: "15px",
+                                flexDirection: 'column',
+                                gap: '20px',
+                                overflow:"hidden"
+                           }} onClick={() =>{params.set("name", Trial.name);
+    router.push(`/create_trial?${params.toString()}`);}}>
+                <p className="text-sm md:text-base lg:text-2xl text-center">{Trial.name}</p>
+            </div>
+}
+

@@ -11,7 +11,7 @@ export enum AttKind {
 }
 
 export interface Trial {
-	name: String,
+	name: string,
 	filters: Map<String, Filter>, // name to type
 	eligible: Array<Patient>,
 	consented: Array<Patient>,

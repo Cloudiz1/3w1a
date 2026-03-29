@@ -1,7 +1,6 @@
-import { CreateTrialButton } from "./trialButton";
+import { CreateTrialButton, TrialB } from "./trialButton";
 import { getTrials } from "./trialLogic";
 import { Trial } from "./types";
-import { TrialButton } from "./trial";
 import { PersonEditButton } from "./personModal";
 
 export default function HomePage() {
@@ -32,18 +31,7 @@ export default function HomePage() {
                 gap: '15px'
             }}>
                 {getTrials().map((trial: Trial, i: number) => {
-                    return <div style={{ 
-                                width: '55%', 
-                                backgroundColor: '#70FFB4',
-                                color:"black",  
-                                height: "20%",
-                                display: 'flex',
-                                borderRadius: "15px",
-                                flexDirection: 'column',
-                                gap: '20px'
-                           }}>
-                        <TrialButton key={i} Trial={trial} />
-                    </div>;
+                    return <TrialB key={i} Trial={trial}/>
                 })}
             </div>
         </div>
