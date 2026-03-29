@@ -1,4 +1,4 @@
-"use Sever";
+"use Client";
 import * as ty from "./types";
 import * as fs from "node:fs";
 
