@@ -1,4 +1,4 @@
-"use client";
+"use Server";
 import { useState } from "react";
 import { CreateTrial } from "./trial";
 
@@ -29,7 +29,7 @@ function TrialCreationMenu({ setShowCreation }: TrialCreationMenuProps) {
                 }}>
             </input>
             <button className="text-black" onClick={() => {
-                CreateTrial(inputValue);
+                
                 setShowCreation(false);
             }}>Create New Trial</button>
         </div>

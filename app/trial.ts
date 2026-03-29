@@ -1,6 +1,5 @@
-"use Client";
 import * as ty from "./types";
-import * as fs from "node:fs";
+import * as fs from "fs";
 
 
 export function CreateTrial(name: string){
@@ -16,4 +15,10 @@ export function CreateTrial(name: string){
     datJSON.trials.append(trial);
     const writeString = JSON.stringify(datJSON, null, 2);
     fs.writeFileSync('./dat/trials.json', writeString, 'utf8');
+}
+
+export function getTrials(){
+    const datString = fs.readFileSync('./dat/trials.json', 'utf8');
+    let datJSON = JSON.parse(datString);
+    return datJSON.trials;
 }
