@@ -4,8 +4,11 @@
       "name": "Evelyn Harper",
       "id": "PAT-001",
       "attributes": {
-        "bloodType": { "value": "O+", "type": "string" },
-        "height": { "value": 165.0, "type": "float" }
+        "Age": { "value": 34, "type": "integer" },
+        "Weight": { "value": 62.5, "type": "float" },
+        "Height": { "value": 165.0, "type": "float" },
+        "Gender": { "value": "Female", "type": "string" },
+        "Race": { "value": "Caucasian", "type": "string" }
       },
       "notes": "Annual physical completed."
     },
@@ -13,24 +16,28 @@
       "name": "Marcus Chen",
       "id": "PAT-002",
       "attributes": {
-        "heartRate": { "value": 72, "type": "integer" },
-        "weight": { "value": 80.0, "type": "float" }
+        "Age": { "value": 29, "type": "integer" },
+        "Weight": { "value": 80.0, "type": "float" },
+        "Gender": { "value": "Male", "type": "string" }
       },
-      "notes": "No history of smoking."
+      "notes": "No history of smoking. (Height and Race missing)"
     },
     {
       "name": "Sarah Jenkins",
       "id": "PAT-003",
       "attributes": {
-        "glucose": { "value": 95, "type": "integer" }
+        "Age": { "value": 45, "type": "integer" },
+        "Height": { "value": 162.0, "type": "float" },
+        "Race": { "value": "Caucasian", "type": "string" }
       },
-      "notes": "Follow-up in 3 months."
+      "notes": "Follow-up in 3 months. (Weight and Gender missing)"
     },
     {
       "name": "Liam O'Connor",
       "id": "PAT-004",
       "attributes": {
-        "bloodPressure": { "value": "118/75", "type": "composite" }
+        "Gender": { "value": "Male", "type": "string" },
+        "Race": { "value": "Caucasian", "type": "string" }
       },
       "notes": "Patient is highly active."
     },
@@ -38,23 +45,29 @@
       "name": "Amara Okafor",
       "id": "PAT-005",
       "attributes": {
-        "oxygen": { "value": 0.98, "type": "float" }
+        "Gender": { "value": "Female", "type": "string" },
+        "Race": { "value": "Black/African American", "type": "string" }
       },
-      "notes": "Recovering from mild flu."
+      "notes": "Recovering from mild flu. (Age, Weight, and Height missing)"
     },
     {
       "name": "Hiroshi Tanaka",
       "id": "PAT-006",
       "attributes": {
-        "cholesterol": { "value": 190, "type": "integer" }
+        "Age": { "value": 52, "type": "integer" },
+        "Weight": { "value": 70.0, "type": "float" },
+        "Height": { "value": 168.0, "type": "float" },
+        "Race": { "value": "Asian", "type": "string" }
       },
-      "notes": "Dietary adjustments recommended."
+      "notes": "Dietary adjustments recommended. (Gender missing)"
     },
     {
       "name": "Elena Rodriguez",
       "id": "PAT-007",
       "attributes": {
-        "vision": { "value": "20/20", "type": "composite" }
+        "Age": { "value": 38, "type": "integer" },
+        "Weight": { "value": 59.0, "type": "float" },
+        "Race": { "value": "Hispanic/Latino", "type": "string" }
       },
       "notes": "No corrective lenses needed."
     },
@@ -62,7 +75,8 @@
       "name": "Julian Vane",
       "id": "PAT-008",
       "attributes": {
-        "bloodType": { "value": "A-", "type": "string" }
+        "Weight": { "value": 84.0, "type": "float" },
+        "Height": { "value": 182.0, "type": "float" }
       },
       "notes": "Known allergy to penicillin."
     },
@@ -70,7 +84,9 @@
       "name": "Sophia Schmidt",
       "id": "PAT-009",
       "attributes": {
-        "weight": { "value": 62.0, "type": "float" }
+        "Age": { "value": 26, "type": "integer" },
+        "Gender": { "value": "Female", "type": "string" },
+        "Race": { "value": "Caucasian", "type": "string" }
       },
       "notes": "Routine prenatal visit."
     },
@@ -78,165 +94,11 @@
       "name": "David Miller",
       "id": "PAT-010",
       "attributes": {
-        "heartRate": { "value": 88, "type": "integer" }
+        "Age": { "value": 55, "type": "integer" },
+        "Gender": { "value": "Male", "type": "string" },
+        "Race": { "value": "Caucasian", "type": "string" }
       },
-      "notes": "Patient reported high stress levels."
-    },
-    {
-      "name": "Isabella Rossi",
-      "id": "PAT-011",
-      "attributes": {
-        "height": { "value": 170.0, "type": "float" }
-      },
-      "notes": "Sports physical cleared."
-    },
-    {
-      "name": "Omar Al-Farsi",
-      "id": "PAT-012",
-      "attributes": {
-        "glucose": { "value": 110, "type": "integer" }
-      },
-      "notes": "Monitor for pre-diabetes."
-    },
-    {
-      "name": "Clara Dubois",
-      "id": "PAT-013",
-      "attributes": {
-        "temp": { "value": 36.8, "type": "float" }
-      },
-      "notes": "Patient feeling well."
-    },
-    {
-      "name": "Noah Williams",
-      "id": "PAT-014",
-      "attributes": {
-        "oxygen": { "value": 0.96, "type": "float" }
-      },
-      "notes": "Smoker, advised cessation."
-    },
-    {
-      "name": "Mia Wong",
-      "id": "PAT-015",
-      "attributes": { "bloodType": { "value": "B+", "type": "string" } },
-      "notes": "Blood donor candidate."
-    },
-    {
-      "name": "Lucas Petit",
-      "id": "PAT-016",
-      "attributes": {
-        "bloodPressure": { "value": "140/90", "type": "composite" }
-      },
-      "notes": "Prescribed hypertension medication."
-    },
-    {
-      "name": "Zoe Graham",
-      "id": "PAT-017",
-      "attributes": {
-        "weight": { "value": 55.0, "type": "float" }
-      },
-      "notes": "Excellent cardiovascular health."
-    },
-    {
-      "name": "Ethan Hunt",
-      "id": "PAT-018",
-      "attributes": {
-        "heartRate": { "value": 58, "type": "integer" }
-      },
-      "notes": "Professional marathon runner."
-    },
-    {
-      "name": "Aria Stark",
-      "id": "PAT-019",
-      "attributes": {
-        "temp": { "value": 38.2, "type": "float" }
-      },
-      "notes": "Prescribed rest and fluids."
-    },
-    {
-      "name": "Mateo Garcia",
-      "id": "PAT-020",
-      "attributes": {
-        "glucose": { "value": 90, "type": "integer" }
-      },
-      "notes": "Consistent energy levels reported."
-    },
-    {
-      "name": "Sloane Peterson",
-      "id": "PAT-021",
-      "attributes": {
-        "bloodPressure": { "value": "110/70", "type": "composite" }
-      },
-      "notes": "First visit to this clinic."
-    },
-    {
-      "name": "Viktor Volkov",
-      "id": "PAT-022",
-      "attributes": {
-        "weight": { "value": 92.0, "type": "float" }
-      },
-      "notes": "History of lower back pain."
-    },
-    {
-      "name": "Naomi Watts",
-      "id": "PAT-023",
-      "attributes": {
-        "height": { "value": 160.0, "type": "float" }
-      },
-      "notes": "Checkup for seasonal allergies."
-    },
-    {
-      "name": "Felix Unger",
-      "id": "PAT-024",
-      "attributes": {
-        "oxygen": { "value": 0.99, "type": "float" }
-      },
-      "notes": "No respiratory complaints."
-    },
-    {
-      "name": "Grace Hopper",
-      "id": "PAT-025",
-      "attributes": { "bloodType": { "value": "AB+", "type": "string" } },
-      "notes": "Scheduled for minor surgery next week."
-    },
-    {
-      "name": "Arthur Dent",
-      "id": "PAT-026",
-      "attributes": {
-        "stressLevel": { "value": "Extremely High", "type": "string" }
-      },
-      "notes": "Suggesting meditation and towel therapy."
-    },
-    {
-      "name": "Yara Greyjoy",
-      "id": "PAT-027",
-      "attributes": {
-        "iron": { "value": "Low", "type": "string" }
-      },
-      "notes": "Iron supplements prescribed."
-    },
-    {
-      "name": "Kevin Flynn",
-      "id": "PAT-028",
-      "attributes": {
-        "vision": { "value": "20/40", "type": "composite" }
-      },
-      "notes": "Digital eye strain likely."
-    },
-    {
-      "name": "Diana Prince",
-      "id": "PAT-029",
-      "attributes": {
-        "strength": { "value": "Superior", "type": "string" }
-      },
-      "notes": "Physical stamina is exceptional."
-    },
-    {
-      "name": "Peter Parker",
-      "id": "PAT-030",
-      "attributes": {
-        "metabolism": { "value": "Fast", "type": "string" }
-      },
-      "notes": "High caloric needs, monitor for fatigue."
+      "notes": ""
     }
   ]
 }

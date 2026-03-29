@@ -1,5 +1,6 @@
+"use Sever";
 import * as ty from "./types";
-const fs = require('fs');
+import * as fs from "node:fs";
 
 
 export function CreateTrial(name: string){

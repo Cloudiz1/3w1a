@@ -1,5 +1,6 @@
 "use client"
 import { useState } from "react";
+import { CreateTrial } from "./trial";
 
 export function CreateTrialButton() {
     const [showCreation, setShowCreation] = useState(false);
@@ -28,7 +29,7 @@ function TrialCreationMenu({ setShowCreation }: TrialCreationMenuProps) {
                 }}>
             </input>
             <button className="text-black" onClick={() => {
-                console.log(inputValue);
+                CreateTrial(inputValue);
                 setShowCreation(false);
             }}>Create New Trial</button>
         </div>
