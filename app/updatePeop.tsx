@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-export function CreateTrialButton() {
+export function CUpdatePeop() {
     const [showCreation, setShowCreation] = useState(false);
     return <>
         <button className="text-4xl" onClick={() => setShowCreation(true)}>+</button>
