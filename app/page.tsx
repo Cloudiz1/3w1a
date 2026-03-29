@@ -2,11 +2,14 @@ import { CreateTrialButton } from "./trialButton";
 import { getTrials } from "./trialLogic";
 import { Trial } from "./types";
 import { TrialButton } from  "./trial";
-import { UpdatePeop } from "./updatePeop";
+// import { UpdatePeop } from "./updatePeop";
 
 export default function homePage() {
     return <div className="master">
-        <div className="editDiv"><CreateTrialButton/><UpdatePeop/></div>
+        <div className="editDiv">
+			<CreateTrialButton/>
+			{/* <UpdatePeop/> */}
+		</div>
         <div className="viewDiv">
             {getTrials().map((trial: Trial, i: number) => {
                 return <TrialButton key={i} Trial={trial} />

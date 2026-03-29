@@ -1,6 +1,7 @@
 "use client"
 import { Filter, AppliedFilter } from "./filter"
 import { useState, useRef } from "react"
+import { useSearchParams } from "next/navigation"
 import { FilterSchema } from "./page"
 
 interface DashProp {
@@ -12,6 +13,7 @@ export function Dash({ filters }: DashProp) {
 	let [independent, setIndependent] = useState<FilterSchema | undefined>();
 	let [dependent, setDependent] = useState<Array<FilterSchema>>([]);
 	let data_filters = useRef<Map<string, any>>(new Map);
+	const searchParams = useSearchParams();
 
     return <div className="flex w-auto h-dvh overflow-hidden">
         <div className="top-0 left-0 flex-1 h-dvh p-2 overflow-y-scroll bg-blue-500 flex flex-col border-solid border-r-2 border-black"> {/* sidebar */}
@@ -79,10 +81,12 @@ export function Dash({ filters }: DashProp) {
 					alert!("You need to input an independent variable!");
 					return;
 				}
-
+				
+				const name = searchParams.get("name");
 				fetch("/api/trial", {
 					method: "POST",
 					body: JSON.stringify({
+						"name": name,
 						"filters": Object.fromEntries(data_filters.current),
 						"independent": independent.name,
 						"dependent": dependent.map((variable) => variable.name),
