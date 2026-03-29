@@ -7,7 +7,7 @@ export function CreateTrial(name: string){
     let datJSON = JSON.parse(datString);
     const trial: ty.Trial = {
         name: name,
-        filters: new Map<String, ty.FilterKind>(),
+        filters: new Map<String, ty.Filter>(),
         eligible: new Array<ty.Patient>,
         consented: new Array<ty.Patient>,
         trialData: new Map<String, ty.TrialData>
@@ -23,6 +23,9 @@ export function getTrials(){
     return datJSON.trials;
 }
 
-export function updateTrial(name: String, ){
-
+export function updateTrial(name: String, filter: ty.Filter){
+    const datString = fs.readFileSync('./data/trials.json', 'utf8');
+    let datJSON = JSON.parse(datString);
+    let inx = datJSON.trials.findIndex((trial: ty.Trial) => trial.name == name);
+    datJSON.trials[inx] = filter;
 }

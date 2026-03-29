@@ -12,7 +12,7 @@ export enum AttKind {
 
 export interface Trial {
 	name: String,
-	filters: Map<String, FilterKind>, // name to type
+	filters: Map<String, Filter>, // name to type
 	eligible: Array<Patient>,
 	consented: Array<Patient>,
 	trialData: Map<String, TrialData>, // id to data
@@ -36,3 +36,9 @@ export interface TrialData {
 	after: Array<Attribute>,
 	notes: String,
 }
+
+export interface Filter {
+		name: string;
+		type: FilterKind.Range | FilterKind.Categorical | FilterKind.MultiSelect;
+		options: Array<string> | Array<Number>;
+};
